@@ -1,0 +1,572 @@
+ModuleNotFoundError: No module named 'spacy'
+PS C:\Users\akhil\Programming\Aleena\Asha AI Hackathon 2025> pip install spacy     
+Collecting spacy
+  Using cached spacy-3.8.2.tar.gz (1.3 MB)
+  Installing build dependencies ... error
+  error: subprocess-exited-with-error
+
+  × pip subprocess to install build dependencies did not run successfully.
+  │ exit code: 1
+  ╰─> [551 lines of output]
+      Ignoring numpy: markers 'python_version < "3.9"' don't match your environment
+      Collecting setuptools
+        Using cached setuptools-78.1.0-py3-none-any.whl.metadata (6.6 kB)
+      Collecting cython<3.0,>=0.25
+        Using cached Cython-0.29.37-py2.py3-none-any.whl.metadata (3.1 kB)
+      Collecting cymem<2.1.0,>=2.0.2
+        Using cached cymem-2.0.11-cp313-cp313-win_amd64.whl.metadata (8.8 kB)
+      Collecting preshed<3.1.0,>=3.0.2
+        Using cached preshed-3.0.9-cp313-cp313-win_amd64.whl
+      Collecting murmurhash<1.1.0,>=0.28.0
+        Using cached murmurhash-1.0.12-cp313-cp313-win_amd64.whl.metadata (2.2 kB)
+      Collecting thinc<8.4.0,>=8.3.0
+        Using cached thinc-8.3.2.tar.gz (193 kB)
+        Installing build dependencies: started
+        Installing build dependencies: finished with status 'done'
+        Getting requirements to build wheel: started
+        Getting requirements to build wheel: finished with status 'done'
+        Preparing metadata (pyproject.toml): started
+        Preparing metadata (pyproject.toml): finished with status 'done'
+      Collecting numpy<2.1.0,>=2.0.0
+        Using cached numpy-2.0.2-cp313-cp313-win_amd64.whl
+      Collecting blis<1.1.0,>=1.0.0 (from thinc<8.4.0,>=8.3.0)
+        Using cached blis-1.0.2-cp313-cp313-win_amd64.whl.metadata (7.8 kB)
+      Collecting wasabi<1.2.0,>=0.8.1 (from thinc<8.4.0,>=8.3.0)
+        Using cached wasabi-1.1.3-py3-none-any.whl.metadata (28 kB)
+      Collecting srsly<3.0.0,>=2.4.0 (from thinc<8.4.0,>=8.3.0)
+        Using cached srsly-2.5.1-cp313-cp313-win_amd64.whl.metadata (20 kB)
+      Collecting catalogue<2.1.0,>=2.0.4 (from thinc<8.4.0,>=8.3.0)
+        Using cached catalogue-2.0.10-py3-none-any.whl.metadata (14 kB)
+      Collecting confection<1.0.0,>=0.0.1 (from thinc<8.4.0,>=8.3.0)
+        Using cached confection-0.1.5-py3-none-any.whl.metadata (19 kB)
+      Collecting pydantic!=1.8,!=1.8.1,<3.0.0,>=1.7.4 (from thinc<8.4.0,>=8.3.0)
+        Using cached pydantic-2.11.1-py3-none-any.whl.metadata (63 kB)
+      Collecting packaging>=20.0 (from thinc<8.4.0,>=8.3.0)
+        Using cached packaging-24.2-py3-none-any.whl.metadata (3.2 kB)
+      Collecting annotated-types>=0.6.0 (from pydantic!=1.8,!=1.8.1,<3.0.0,>=1.7.4->thinc<8.4.0,>=8.3.0)
+        Using cached annotated_types-0.7.0-py3-none-any.whl.metadata (15 kB)
+      Collecting pydantic-core==2.33.0 (from pydantic!=1.8,!=1.8.1,<3.0.0,>=1.7.4->thinc<8.4.0,>=8.3.0)
+        Using cached pydantic_core-2.33.0-cp313-cp313-win_amd64.whl.metadata (6.9 kB)
+      Collecting typing-extensions>=4.12.2 (from pydantic!=1.8,!=1.8.1,<3.0.0,>=1.7.4->thinc<8.4.0,>=8.3.0)
+        Using cached typing_extensions-4.13.0-py3-none-any.whl.metadata (3.0 kB)
+      Collecting typing-inspection>=0.4.0 (from pydantic!=1.8,!=1.8.1,<3.0.0,>=1.7.4->thinc<8.4.0,>=8.3.0)
+        Using cached typing_inspection-0.4.0-py3-none-any.whl.metadata (2.6 kB)
+      Collecting colorama>=0.4.6 (from wasabi<1.2.0,>=0.8.1->thinc<8.4.0,>=8.3.0)
+        Using cached colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
+      Using cached setuptools-78.1.0-py3-none-any.whl (1.3 MB)
+      Using cached Cython-0.29.37-py2.py3-none-any.whl (989 kB)
+      Using cached cymem-2.0.11-cp313-cp313-win_amd64.whl (39 kB)
+      Using cached murmurhash-1.0.12-cp313-cp313-win_amd64.whl (24 kB)
+      Using cached blis-1.0.2-cp313-cp313-win_amd64.whl (6.4 MB)
+      Using cached catalogue-2.0.10-py3-none-any.whl (17 kB)
+      Using cached confection-0.1.5-py3-none-any.whl (35 kB)
+      Using cached packaging-24.2-py3-none-any.whl (65 kB)
+      Using cached pydantic-2.11.1-py3-none-any.whl (442 kB)
+      Using cached pydantic_core-2.33.0-cp313-cp313-win_amd64.whl (2.0 MB)
+      Using cached srsly-2.5.1-cp313-cp313-win_amd64.whl (630 kB)
+      Using cached wasabi-1.1.3-py3-none-any.whl (27 kB)
+      Using cached annotated_types-0.7.0-py3-none-any.whl (13 kB)
+      Using cached colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+      Using cached typing_extensions-4.13.0-py3-none-any.whl (45 kB)
+      Using cached typing_inspection-0.4.0-py3-none-any.whl (14 kB)
+      Building wheels for collected packages: thinc
+        Building wheel for thinc (pyproject.toml): started
+        Building wheel for thinc (pyproject.toml): finished with status 'error'
+        error: subprocess-exited-with-error
+
+        Building wheel for thinc (pyproject.toml) did not run successfully.
+        exit code: 1
+
+        [475 lines of output]
+        Cythonizing sources
+        C:\Users\akhil\AppData\Local\Temp\pip-build-env-wdaopmpf\overlay\Lib\site-packages\setuptools\dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+        !!
+
+                ********************************************************************************
+                Please consider removing the following classifiers in favor of a SPDX license expression:
+
+                License :: OSI Approved :: MIT License
+
+                See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+                ********************************************************************************
+
+        !!
+          self._finalize_license_expression()
+        running bdist_wheel
+        running build
+        running build_py
+        creating build\lib.win-amd64-cpython-313\thinc
+        copying thinc\about.py -> build\lib.win-amd64-cpython-313\thinc
+        copying thinc\api.py -> build\lib.win-amd64-cpython-313\thinc
+        copying thinc\compat.py -> build\lib.win-amd64-cpython-313\thinc
+        copying thinc\config.py -> build\lib.win-amd64-cpython-313\thinc
+        copying thinc\initializers.py -> build\lib.win-amd64-cpython-313\thinc
+        copying thinc\loss.py -> build\lib.win-amd64-cpython-313\thinc
+        copying thinc\model.py -> build\lib.win-amd64-cpython-313\thinc
+        copying thinc\mypy.py -> build\lib.win-amd64-cpython-313\thinc
+        copying thinc\optimizers.py -> build\lib.win-amd64-cpython-313\thinc
+        copying thinc\schedules.py -> build\lib.win-amd64-cpython-313\thinc
+        copying thinc\types.py -> build\lib.win-amd64-cpython-313\thinc
+        copying thinc\util.py -> build\lib.win-amd64-cpython-313\thinc
+        copying thinc\__init__.py -> build\lib.win-amd64-cpython-313\thinc
+        creating build\lib.win-amd64-cpython-313\thinc\backends
+        copying thinc\backends\cupy_ops.py -> build\lib.win-amd64-cpython-313\thinc\backends
+        copying thinc\backends\mps_ops.py -> build\lib.win-amd64-cpython-313\thinc\backends
+        copying thinc\backends\ops.py -> build\lib.win-amd64-cpython-313\thinc\backends
+        copying thinc\backends\_cupy_allocators.py -> build\lib.win-amd64-cpython-313\thinc\backends
+        copying thinc\backends\_custom_kernels.py -> build\lib.win-amd64-cpython-313\thinc\backends
+        copying thinc\backends\_param_server.py -> build\lib.win-amd64-cpython-313\thinc\backends
+        copying thinc\backends\__init__.py -> build\lib.win-amd64-cpython-313\thinc\backends
+        creating build\lib.win-amd64-cpython-313\thinc\extra
+        copying thinc\extra\__init__.py -> build\lib.win-amd64-cpython-313\thinc\extra
+        creating build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\add.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\array_getitem.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\bidirectional.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\cauchysimilarity.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\chain.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\clipped_linear.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\clone.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\concatenate.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\dish.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\dropout.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\embed.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\expand_window.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\gelu.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\hard_swish.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\hard_swish_mobilenet.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\hashembed.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\layernorm.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\linear.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\list2array.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\list2padded.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\list2ragged.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\logistic.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\lstm.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\map_list.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\maxout.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\mish.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\multisoftmax.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\mxnetwrapper.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\noop.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\padded2list.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\parametricattention.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\parametricattention_v2.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\pytorchwrapper.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\ragged2list.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\reduce_first.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\reduce_last.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\reduce_max.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\reduce_mean.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\reduce_sum.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\relu.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\remap_ids.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\residual.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\resizable.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\siamese.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\sigmoid.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\sigmoid_activation.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\softmax.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\softmax_activation.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\strings2arrays.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\swish.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\tensorflowwrapper.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\torchscriptwrapper.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\tuplify.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\uniqued.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\with_array.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\with_array2d.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\with_cpu.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\with_debug.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\with_flatten.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\with_flatten_v2.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\with_getitem.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\with_list.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\with_nvtx_range.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\with_padded.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\with_ragged.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\with_reshape.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\with_signpost_interval.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\__init__.py -> build\lib.win-amd64-cpython-313\thinc\layers
+        creating build\lib.win-amd64-cpython-313\thinc\shims
+        copying thinc\shims\mxnet.py -> build\lib.win-amd64-cpython-313\thinc\shims
+        copying thinc\shims\pytorch.py -> build\lib.win-amd64-cpython-313\thinc\shims
+        copying thinc\shims\pytorch_grad_scaler.py -> build\lib.win-amd64-cpython-313\thinc\shims
+        copying thinc\shims\shim.py -> build\lib.win-amd64-cpython-313\thinc\shims
+        copying thinc\shims\tensorflow.py -> build\lib.win-amd64-cpython-313\thinc\shims
+        copying thinc\shims\torchscript.py -> build\lib.win-amd64-cpython-313\thinc\shims
+        copying thinc\shims\__init__.py -> build\lib.win-amd64-cpython-313\thinc\shims
+        creating build\lib.win-amd64-cpython-313\thinc\tests
+        copying thinc\tests\conftest.py -> build\lib.win-amd64-cpython-313\thinc\tests
+        copying thinc\tests\enable_mxnet.py -> build\lib.win-amd64-cpython-313\thinc\tests
+        copying thinc\tests\enable_tensorflow.py -> build\lib.win-amd64-cpython-313\thinc\tests
+        copying thinc\tests\strategies.py -> build\lib.win-amd64-cpython-313\thinc\tests
+        copying thinc\tests\test_config.py -> build\lib.win-amd64-cpython-313\thinc\tests
+        copying thinc\tests\test_examples.py -> build\lib.win-amd64-cpython-313\thinc\tests
+        copying thinc\tests\test_import__all__.py -> build\lib.win-amd64-cpython-313\thinc\tests
+        copying thinc\tests\test_indexing.py -> build\lib.win-amd64-cpython-313\thinc\tests
+        copying thinc\tests\test_initializers.py -> build\lib.win-amd64-cpython-313\thinc\tests
+        copying thinc\tests\test_loss.py -> build\lib.win-amd64-cpython-313\thinc\tests
+        copying thinc\tests\test_optimizers.py -> build\lib.win-amd64-cpython-313\thinc\tests
+        copying thinc\tests\test_schedules.py -> build\lib.win-amd64-cpython-313\thinc\tests
+        copying thinc\tests\test_serialize.py -> build\lib.win-amd64-cpython-313\thinc\tests
+        copying thinc\tests\test_types.py -> build\lib.win-amd64-cpython-313\thinc\tests
+        copying thinc\tests\test_util.py -> build\lib.win-amd64-cpython-313\thinc\tests
+        copying thinc\tests\util.py -> build\lib.win-amd64-cpython-313\thinc\tests
+        copying thinc\tests\__init__.py -> build\lib.win-amd64-cpython-313\thinc\tests
+        creating build\lib.win-amd64-cpython-313\thinc\extra\tests
+        copying thinc\extra\tests\__init__.py -> build\lib.win-amd64-cpython-313\thinc\extra\tests
+        creating build\lib.win-amd64-cpython-313\thinc\tests\backends
+        copying thinc\tests\backends\test_mem.py -> build\lib.win-amd64-cpython-313\thinc\tests\backends
+        copying thinc\tests\backends\test_ops.py -> build\lib.win-amd64-cpython-313\thinc\tests\backends
+        copying thinc\tests\backends\__init__.py -> build\lib.win-amd64-cpython-313\thinc\tests\backends
+        creating build\lib.win-amd64-cpython-313\thinc\tests\extra
+        copying thinc\tests\extra\test_beam_search.py -> build\lib.win-amd64-cpython-313\thinc\tests\extra
+        copying thinc\tests\extra\__init__.py -> build\lib.win-amd64-cpython-313\thinc\tests\extra
+        creating build\lib.win-amd64-cpython-313\thinc\tests\layers
+        copying thinc\tests\layers\test_basic_tagger.py -> build\lib.win-amd64-cpython-313\thinc\tests\layers
+        copying thinc\tests\layers\test_combinators.py -> build\lib.win-amd64-cpython-313\thinc\tests\layers
+        copying thinc\tests\layers\test_feed_forward.py -> build\lib.win-amd64-cpython-313\thinc\tests\layers
+        copying thinc\tests\layers\test_hash_embed.py -> build\lib.win-amd64-cpython-313\thinc\tests\layers
+        copying thinc\tests\layers\test_layers_api.py -> build\lib.win-amd64-cpython-313\thinc\tests\layers
+        copying thinc\tests\layers\test_linear.py -> build\lib.win-amd64-cpython-313\thinc\tests\layers
+        copying thinc\tests\layers\test_lstm.py -> build\lib.win-amd64-cpython-313\thinc\tests\layers
+        copying thinc\tests\layers\test_mappers.py -> build\lib.win-amd64-cpython-313\thinc\tests\layers
+        copying thinc\tests\layers\test_mnist.py -> build\lib.win-amd64-cpython-313\thinc\tests\layers
+        copying thinc\tests\layers\test_mxnet_wrapper.py -> build\lib.win-amd64-cpython-313\thinc\tests\layers
+        copying thinc\tests\layers\test_parametric_attention_v2.py -> build\lib.win-amd64-cpython-313\thinc\tests\layers
+        copying thinc\tests\layers\test_pytorch_wrapper.py -> build\lib.win-amd64-cpython-313\thinc\tests\layers
+        copying thinc\tests\layers\test_reduce.py -> build\lib.win-amd64-cpython-313\thinc\tests\layers
+        copying thinc\tests\layers\test_resizable.py -> build\lib.win-amd64-cpython-313\thinc\tests\layers
+        copying thinc\tests\layers\test_shim.py -> build\lib.win-amd64-cpython-313\thinc\tests\layers
+        copying thinc\tests\layers\test_softmax.py -> build\lib.win-amd64-cpython-313\thinc\tests\layers
+        copying thinc\tests\layers\test_sparse_linear.py -> build\lib.win-amd64-cpython-313\thinc\tests\layers
+        copying thinc\tests\layers\test_tensorflow_wrapper.py -> build\lib.win-amd64-cpython-313\thinc\tests\layers
+        copying thinc\tests\layers\test_torchscriptwrapper.py -> build\lib.win-amd64-cpython-313\thinc\tests\layers
+        copying thinc\tests\layers\test_transforms.py -> build\lib.win-amd64-cpython-313\thinc\tests\layers
+        copying thinc\tests\layers\test_uniqued.py -> build\lib.win-amd64-cpython-313\thinc\tests\layers
+        copying thinc\tests\layers\test_with_debug.py -> build\lib.win-amd64-cpython-313\thinc\tests\layers
+        copying thinc\tests\layers\test_with_flatten.py -> build\lib.win-amd64-cpython-313\thinc\tests\layers
+        copying thinc\tests\layers\test_with_transforms.py -> build\lib.win-amd64-cpython-313\thinc\tests\layers
+        copying thinc\tests\layers\__init__.py -> build\lib.win-amd64-cpython-313\thinc\tests\layers
+        creating build\lib.win-amd64-cpython-313\thinc\tests\model
+        copying thinc\tests\model\test_model.py -> build\lib.win-amd64-cpython-313\thinc\tests\model
+        copying thinc\tests\model\test_validation.py -> build\lib.win-amd64-cpython-313\thinc\tests\model
+        copying thinc\tests\model\__init__.py -> build\lib.win-amd64-cpython-313\thinc\tests\model
+        creating build\lib.win-amd64-cpython-313\thinc\tests\mypy
+        copying thinc\tests\mypy\test_mypy.py -> build\lib.win-amd64-cpython-313\thinc\tests\mypy
+        copying thinc\tests\mypy\__init__.py -> build\lib.win-amd64-cpython-313\thinc\tests\mypy
+        creating build\lib.win-amd64-cpython-313\thinc\tests\regression
+        copying thinc\tests\regression\test_issue208.py -> build\lib.win-amd64-cpython-313\thinc\tests\regression
+        copying thinc\tests\regression\test_issue564.py -> build\lib.win-amd64-cpython-313\thinc\tests\regression
+        copying thinc\tests\regression\__init__.py -> build\lib.win-amd64-cpython-313\thinc\tests\regression
+        creating build\lib.win-amd64-cpython-313\thinc\tests\shims
+        copying thinc\tests\shims\test_pytorch_grad_scaler.py -> build\lib.win-amd64-cpython-313\thinc\tests\shims
+        copying thinc\tests\shims\__init__.py -> build\lib.win-amd64-cpython-313\thinc\tests\shims
+        creating build\lib.win-amd64-cpython-313\thinc\tests\mypy\modules
+        copying thinc\tests\mypy\modules\fail_no_plugin.py -> build\lib.win-amd64-cpython-313\thinc\tests\mypy\modules
+        copying thinc\tests\mypy\modules\fail_plugin.py -> build\lib.win-amd64-cpython-313\thinc\tests\mypy\modules
+        copying thinc\tests\mypy\modules\success_no_plugin.py -> build\lib.win-amd64-cpython-313\thinc\tests\mypy\modules
+        copying thinc\tests\mypy\modules\success_plugin.py -> build\lib.win-amd64-cpython-313\thinc\tests\mypy\modules
+        copying thinc\tests\mypy\modules\__init__.py -> build\lib.win-amd64-cpython-313\thinc\tests\mypy\modules
+        creating build\lib.win-amd64-cpython-313\thinc\tests\regression\issue519
+        copying thinc\tests\regression\issue519\program.py -> build\lib.win-amd64-cpython-313\thinc\tests\regression\issue519
+        copying thinc\tests\regression\issue519\test_issue519.py -> build\lib.win-amd64-cpython-313\thinc\tests\regression\issue519
+        copying thinc\tests\regression\issue519\__init__.py -> build\lib.win-amd64-cpython-313\thinc\tests\regression\issue519
+        running egg_info
+        writing thinc.egg-info\PKG-INFO
+        writing dependency_links to thinc.egg-info\dependency_links.txt
+        writing entry points to thinc.egg-info\entry_points.txt
+        writing requirements to thinc.egg-info\requires.txt
+        writing top-level names to thinc.egg-info\top_level.txt
+        dependency C:\Python313\Include\Python.h won't be automatically included in the manifest: the path must be relative
+        dependency C:\Users\akhil\AppData\Local\Temp\pip-build-env-wdaopmpf\overlay\Lib\site-packages\numpy\_core\include\numpy\arrayobject.h won't be automatically included in the manifest: the path must be relative
+        dependency C:\Users\akhil\AppData\Local\Temp\pip-build-env-wdaopmpf\overlay\Lib\site-packages\numpy\_core\include\numpy\arrayscalars.h won't be automatically included in the manifest: the path must be relative
+        dependency C:\Users\akhil\AppData\Local\Temp\pip-build-env-wdaopmpf\overlay\Lib\site-packages\numpy\_core\include\numpy\ndarrayobject.h won't be automatically included in the manifest: the path must be relative
+        dependency C:\Users\akhil\AppData\Local\Temp\pip-build-env-wdaopmpf\overlay\Lib\site-packages\numpy\_core\include\numpy\ndarraytypes.h won't be automatically included in the manifest: the path must be relative
+        dependency C:\Users\akhil\AppData\Local\Temp\pip-build-env-wdaopmpf\overlay\Lib\site-packages\numpy\_core\include\numpy\ufuncobject.h won't be automatically included in the manifest: the path must be relative
+        dependency C:\Python313\Include\Python.h won't be automatically included in the manifest: the path must be relative
+        dependency C:\Users\akhil\AppData\Local\Temp\pip-build-env-wdaopmpf\overlay\Lib\site-packages\numpy\_core\include\numpy\arrayobject.h won't be automatically included in the manifest: the path must be relative
+        dependency C:\Users\akhil\AppData\Local\Temp\pip-build-env-wdaopmpf\overlay\Lib\site-packages\numpy\_core\include\numpy\arrayscalars.h won't be automatically included in the manifest: the path must be relative
+        dependency C:\Users\akhil\AppData\Local\Temp\pip-build-env-wdaopmpf\overlay\Lib\site-packages\numpy\_core\include\numpy\ndarrayobject.h won't be automatically included in the manifest: the path must be relative
+        dependency C:\Users\akhil\AppData\Local\Temp\pip-build-env-wdaopmpf\overlay\Lib\site-packages\numpy\_core\include\numpy\ndarraytypes.h won't be automatically included in the manifest: the path must be relative
+        dependency C:\Users\akhil\AppData\Local\Temp\pip-build-env-wdaopmpf\overlay\Lib\site-packages\numpy\_core\include\numpy\ufuncobject.h won't be automatically included in the manifest: the path must be relative
+        reading manifest file 'thinc.egg-info\SOURCES.txt'
+        reading manifest template 'MANIFEST.in'
+        no previously-included directories found matching 'tmp'
+        warning: no previously-included files matching '*.cpp' found under directory 'thinc'
+        adding license file 'LICENSE'
+        writing manifest file 'thinc.egg-info\SOURCES.txt'
+        C:\Users\akhil\AppData\Local\Temp\pip-build-env-wdaopmpf\overlay\Lib\site-packages\setuptools\command\build_py.py:212: _Warning: Package 'thinc.backends' is absent from the `packages` configuration.
+        !!
+
+                ********************************************************************************
+                ############################
+                # Package would be ignored #
+                ############################
+                Python recognizes 'thinc.backends' as an importable package[^1],
+                but it is absent from setuptools' `packages` configuration.
+
+                This leads to an ambiguous overall configuration. If you want to distribute this
+                package, please make sure that 'thinc.backends' is explicitly added
+                to the `packages` configuration field.
+
+                Alternatively, you can also rely on setuptools' discovery methods
+                (for example by using `find_namespace_packages(...)`/`find_namespace:`
+                instead of `find_packages(...)`/`find:`).
+
+                You can read more about "package discovery" on setuptools documentation page:
+
+                - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+                If you don't want 'thinc.backends' to be distributed and are
+                already explicitly excluding 'thinc.backends' via
+                `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+                you can try to use `exclude_package_data`, or `include-package-data=False` in
+                combination with a more fine grained `package-data` configuration.
+
+                You can read more about "package data files" on setuptools documentation page:
+
+                - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+                [^1]: For Python, any directory (with suitable naming) can be imported,
+                      even if it does not contain any `.py` files.
+                      On the other hand, currently there is no concept of package data
+                      directory, all directories are treated like packages.
+                ********************************************************************************
+
+        !!
+          check.warn(importable)
+        C:\Users\akhil\AppData\Local\Temp\pip-build-env-wdaopmpf\overlay\Lib\site-packages\setuptools\command\build_py.py:212: _Warning: Package 'thinc.extra' is absent from the `packages` configuration.
+        !!
+
+                ********************************************************************************
+                ############################
+                # Package would be ignored #
+                ############################
+                Python recognizes 'thinc.extra' as an importable package[^1],
+                but it is absent from setuptools' `packages` configuration.
+
+                This leads to an ambiguous overall configuration. If you want to distribute this
+                package, please make sure that 'thinc.extra' is explicitly added
+                to the `packages` configuration field.
+
+                Alternatively, you can also rely on setuptools' discovery methods
+                (for example by using `find_namespace_packages(...)`/`find_namespace:`
+                instead of `find_packages(...)`/`find:`).
+
+                You can read more about "package discovery" on setuptools documentation page:
+
+                - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+                If you don't want 'thinc.extra' to be distributed and are
+                already explicitly excluding 'thinc.extra' via
+                `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+                you can try to use `exclude_package_data`, or `include-package-data=False` in
+                combination with a more fine grained `package-data` configuration.
+
+                You can read more about "package data files" on setuptools documentation page:
+
+                - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+                [^1]: For Python, any directory (with suitable naming) can be imported,
+                      even if it does not contain any `.py` files.
+                      On the other hand, currently there is no concept of package data
+                      directory, all directories are treated like packages.
+                ********************************************************************************
+
+        !!
+          check.warn(importable)
+        C:\Users\akhil\AppData\Local\Temp\pip-build-env-wdaopmpf\overlay\Lib\site-packages\setuptools\command\build_py.py:212: _Warning: Package 'thinc.layers' is absent from the `packages` configuration.
+        !!
+
+                ********************************************************************************
+                ############################
+                # Package would be ignored #
+                ############################
+                Python recognizes 'thinc.layers' as an importable package[^1],
+                but it is absent from setuptools' `packages` configuration.
+
+                This leads to an ambiguous overall configuration. If you want to distribute this
+                package, please make sure that 'thinc.layers' is explicitly added
+                to the `packages` configuration field.
+
+                Alternatively, you can also rely on setuptools' discovery methods
+                (for example by using `find_namespace_packages(...)`/`find_namespace:`
+                instead of `find_packages(...)`/`find:`).
+
+                You can read more about "package discovery" on setuptools documentation page:
+
+                - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+                If you don't want 'thinc.layers' to be distributed and are
+                already explicitly excluding 'thinc.layers' via
+                `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+                you can try to use `exclude_package_data`, or `include-package-data=False` in
+                combination with a more fine grained `package-data` configuration.
+
+                You can read more about "package data files" on setuptools documentation page:
+
+                - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+                [^1]: For Python, any directory (with suitable naming) can be imported,
+                      even if it does not contain any `.py` files.
+                      On the other hand, currently there is no concept of package data
+                      directory, all directories are treated like packages.
+                ********************************************************************************
+
+        !!
+          check.warn(importable)
+        C:\Users\akhil\AppData\Local\Temp\pip-build-env-wdaopmpf\overlay\Lib\site-packages\setuptools\command\build_py.py:212: _Warning: Package 'thinc.tests.mypy.configs' is absent from the `packages` configuration.
+        !!
+
+                ********************************************************************************
+                ############################
+                # Package would be ignored #
+                ############################
+                Python recognizes 'thinc.tests.mypy.configs' as an importable package[^1],
+                but it is absent from setuptools' `packages` configuration.
+
+                This leads to an ambiguous overall configuration. If you want to distribute this
+                package, please make sure that 'thinc.tests.mypy.configs' is explicitly added
+                to the `packages` configuration field.
+
+                Alternatively, you can also rely on setuptools' discovery methods
+                (for example by using `find_namespace_packages(...)`/`find_namespace:`
+                instead of `find_packages(...)`/`find:`).
+
+                You can read more about "package discovery" on setuptools documentation page:
+
+                - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+                If you don't want 'thinc.tests.mypy.configs' to be distributed and are
+                already explicitly excluding 'thinc.tests.mypy.configs' via
+                `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+                you can try to use `exclude_package_data`, or `include-package-data=False` in
+                combination with a more fine grained `package-data` configuration.
+
+                You can read more about "package data files" on setuptools documentation page:
+
+                - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+                [^1]: For Python, any directory (with suitable naming) can be imported,
+                      even if it does not contain any `.py` files.
+                      On the other hand, currently there is no concept of package data
+                      directory, all directories are treated like packages.
+                ********************************************************************************
+
+        !!
+          check.warn(importable)
+        C:\Users\akhil\AppData\Local\Temp\pip-build-env-wdaopmpf\overlay\Lib\site-packages\setuptools\command\build_py.py:212: _Warning: Package 'thinc.tests.mypy.outputs' is absent from the `packages` configuration.
+        !!
+
+                ********************************************************************************
+                ############################
+                # Package would be ignored #
+                ############################
+                Python recognizes 'thinc.tests.mypy.outputs' as an importable package[^1],
+                but it is absent from setuptools' `packages` configuration.
+
+                This leads to an ambiguous overall configuration. If you want to distribute this
+                package, please make sure that 'thinc.tests.mypy.outputs' is explicitly added
+                to the `packages` configuration field.
+
+                Alternatively, you can also rely on setuptools' discovery methods
+                (for example by using `find_namespace_packages(...)`/`find_namespace:`
+                instead of `find_packages(...)`/`find:`).
+
+                You can read more about "package discovery" on setuptools documentation page:
+
+                - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+                If you don't want 'thinc.tests.mypy.outputs' to be distributed and are
+                already explicitly excluding 'thinc.tests.mypy.outputs' via
+                `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+                you can try to use `exclude_package_data`, or `include-package-data=False` in
+                combination with a more fine grained `package-data` configuration.
+
+                You can read more about "package data files" on setuptools documentation page:
+
+                - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+                [^1]: For Python, any directory (with suitable naming) can be imported,
+                      even if it does not contain any `.py` files.
+                      On the other hand, currently there is no concept of package data
+                      directory, all directories are treated like packages.
+                ********************************************************************************
+
+        !!
+          check.warn(importable)
+        copying thinc\__init__.pxd -> build\lib.win-amd64-cpython-313\thinc
+        copying thinc\py.typed -> build\lib.win-amd64-cpython-313\thinc
+        copying thinc\backends\cblas.cpp -> build\lib.win-amd64-cpython-313\thinc\backends
+        copying thinc\backends\cpu_kernels.hh -> build\lib.win-amd64-cpython-313\thinc\backends
+        copying thinc\backends\linalg.cpp -> build\lib.win-amd64-cpython-313\thinc\backends
+        copying thinc\backends\numpy_ops.cpp -> build\lib.win-amd64-cpython-313\thinc\backends
+        copying thinc\extra\search.cpp -> build\lib.win-amd64-cpython-313\thinc\extra
+        copying thinc\layers\premap_ids.cpp -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\sparselinear.cpp -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\backends\__init__.pxd -> build\lib.win-amd64-cpython-313\thinc\backends
+        copying thinc\backends\_custom_kernels.cu -> build\lib.win-amd64-cpython-313\thinc\backends
+        copying thinc\backends\_murmur3.cu -> build\lib.win-amd64-cpython-313\thinc\backends
+        copying thinc\backends\cblas.pxd -> build\lib.win-amd64-cpython-313\thinc\backends
+        copying thinc\backends\cblas.pyx -> build\lib.win-amd64-cpython-313\thinc\backends
+        copying thinc\backends\linalg.pxd -> build\lib.win-amd64-cpython-313\thinc\backends
+        copying thinc\backends\linalg.pyx -> build\lib.win-amd64-cpython-313\thinc\backends
+        copying thinc\backends\numpy_ops.pxd -> build\lib.win-amd64-cpython-313\thinc\backends
+        copying thinc\backends\numpy_ops.pyx -> build\lib.win-amd64-cpython-313\thinc\backends
+        copying thinc\extra\__init__.pxd -> build\lib.win-amd64-cpython-313\thinc\extra
+        copying thinc\extra\search.pxd -> build\lib.win-amd64-cpython-313\thinc\extra
+        copying thinc\extra\search.pyx -> build\lib.win-amd64-cpython-313\thinc\extra
+        copying thinc\layers\premap_ids.pyx -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\layers\sparselinear.pyx -> build\lib.win-amd64-cpython-313\thinc\layers
+        copying thinc\extra\tests\c_test_search.pyx -> build\lib.win-amd64-cpython-313\thinc\extra\tests
+        creating build\lib.win-amd64-cpython-313\thinc\tests\mypy\configs
+        copying thinc\tests\mypy\configs\mypy-default.ini -> build\lib.win-amd64-cpython-313\thinc\tests\mypy\configs
+        copying thinc\tests\mypy\configs\mypy-plugin.ini -> build\lib.win-amd64-cpython-313\thinc\tests\mypy\configs
+        creating build\lib.win-amd64-cpython-313\thinc\tests\mypy\outputs
+        copying thinc\tests\mypy\outputs\fail-no-plugin.txt -> build\lib.win-amd64-cpython-313\thinc\tests\mypy\outputs
+        copying thinc\tests\mypy\outputs\fail-plugin.txt -> build\lib.win-amd64-cpython-313\thinc\tests\mypy\outputs
+        copying thinc\tests\mypy\outputs\success-no-plugin.txt -> build\lib.win-amd64-cpython-313\thinc\tests\mypy\outputs
+        copying thinc\tests\mypy\outputs\success-plugin.txt -> build\lib.win-amd64-cpython-313\thinc\tests\mypy\outputs
+        running build_ext
+        building 'thinc.backends.cblas' extension
+        creating build\temp.win-amd64-cpython-313\Release\thinc\backends
+        "C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.44.34918\bin\HostX86\x64\cl.exe" /c /nologo /O2 /W3 /GL /DNDEBUG /MD -IC:\Users\akhil\AppData\Local\Temp\pip-build-env-wdaopmpf\overlay\Lib\site-packages\numpy\_core\include -IC:\Python313\Include "-IC:\Users\akhil\Programming\Aleena\Asha AI Hackathon 2025\venv\include" -IC:\Python313\include -IC:\Python313\Include "-IC:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.44.34918\include" "-IC:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.44.34918\ATLMFC\include" "-IC:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Auxiliary\VS\include" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" /EHsc /Tpthinc/backends/cblas.cpp /Fobuild\temp.win-amd64-cpython-313\Release\thinc\backends\cblas.obj /Ox /EHsc
+        cblas.cpp
+        thinc/backends/cblas.cpp(871): warning C4996: 'Py_UNICODE': deprecated in 3.13
+        thinc/backends/cblas.cpp(872): warning C4996: 'Py_UNICODE': deprecated in 3.13
+        thinc/backends/cblas.cpp(1908): error C3861: '_PyList_Extend': identifier not found
+        thinc/backends/cblas.cpp(1946): error C3861: '_PyInterpreterState_GetConfig': identifier not found
+        thinc/backends/cblas.cpp(20354): error C2660: '_PyLong_AsByteArray': function does not take 5 arguments
+        C:\Python313\Include\cpython/longobject.h(111): note: see declaration of '_PyLong_AsByteArray'
+        thinc/backends/cblas.cpp(20354): note: while trying to match the argument list '(PyLongObject *, unsigned char *, size_t, int, bool)'    
+        thinc/backends/cblas.cpp(20550): error C2660: '_PyLong_AsByteArray': function does not take 5 arguments
+        C:\Python313\Include\cpython/longobject.h(111): note: see declaration of '_PyLong_AsByteArray'
+        thinc/backends/cblas.cpp(20550): note: while trying to match the argument list '(PyLongObject *, unsigned char *, size_t, int, bool)'    
+        thinc/backends/cblas.cpp(20822): error C2660: '_PyLong_AsByteArray': function does not take 5 arguments
+        C:\Python313\Include\cpython/longobject.h(111): note: see declaration of '_PyLong_AsByteArray'
+        thinc/backends/cblas.cpp(20822): note: while trying to match the argument list '(PyLongObject *, unsigned char *, size_t, int, bool)'    
+        error: command 'C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.44.34918\\bin\\HostX86\\x64\\cl.exe' failed with exit code 2
+        [end of output]
+
+        note: This error originates from a subprocess, and is likely not a problem with pip.
+        ERROR: Failed building wheel for thinc
+      Failed to build thinc
+      ERROR: ERROR: Failed to build installable wheels for some pyproject.toml based projects (thinc)
+      [end of output]
+
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+
+[notice] A new release of pip is available: 24.3.1 -> 25.0.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+error: subprocess-exited-with-error
+
+× pip subprocess to install build dependencies did not run successfully.
+│ exit code: 1
+╰─> See above for output.

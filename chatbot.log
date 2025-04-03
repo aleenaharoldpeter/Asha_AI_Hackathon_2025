@@ -1,0 +1,1207 @@
+2025-04-01 19:16:26,176 - ERROR - Error reading CSV: [Errno 2] No such file or directory: 'job_listing_data.csv'
+2025-04-01 19:16:26,176 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-01 19:16:26,282 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-01 19:16:26,282 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-01 19:16:26,285 - INFO -  * Restarting with stat
+2025-04-01 19:16:45,319 - ERROR - Error reading CSV: [Errno 2] No such file or directory: 'job_listing_data.csv'
+2025-04-01 19:16:45,320 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-01 19:16:45,337 - WARNING -  * Debugger is active!
+2025-04-01 19:16:45,349 - INFO -  * Debugger PIN: 137-857-803
+2025-04-01 19:16:45,580 - INFO - 127.0.0.1 - - [01/Apr/2025 19:16:45] "GET / HTTP/1.1" 200 -
+2025-04-01 19:16:46,483 - INFO - 127.0.0.1 - - [01/Apr/2025 19:16:46] "GET / HTTP/1.1" 200 -
+2025-04-01 19:16:46,652 - INFO - 127.0.0.1 - - [01/Apr/2025 19:16:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-01 19:16:56,337 - INFO - Received message from session default: 
+2025-04-01 19:16:56,339 - INFO - Processed message. Tokens: [] | Entities: []
+2025-04-01 19:16:56,340 - INFO - Updated session default history. Total messages: 2
+2025-04-01 19:16:56,340 - INFO - 127.0.0.1 - - [01/Apr/2025 19:16:56] "POST /chat HTTP/1.1" 200 -
+2025-04-01 19:17:09,855 - INFO - Received message from session default: What are the jobs available
+2025-04-01 19:17:10,187 - INFO - Processed message. Tokens: ['What', 'are', 'the', 'jobs', 'available'] | Entities: []
+2025-04-01 19:17:12,988 - ERROR - Exception during API call: HTTPSConnectionPool(host='api.example.com', port=443): Max retries exceeded with url: /jobs (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000219B2B81590>: Failed to resolve 'api.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-04-01 19:17:12,988 - ERROR - Error reading CSV: [Errno 2] No such file or directory: 'job_listing_data.csv'
+2025-04-01 19:17:12,988 - INFO - Updated session default history. Total messages: 4
+2025-04-01 19:17:12,989 - INFO - 127.0.0.1 - - [01/Apr/2025 19:17:12] "POST /chat HTTP/1.1" 200 -
+2025-04-01 19:17:13,097 - INFO - Received message from session default: 
+2025-04-01 19:17:13,099 - INFO - Processed message. Tokens: [] | Entities: []
+2025-04-01 19:17:13,100 - INFO - Updated session default history. Total messages: 6
+2025-04-01 19:17:13,100 - INFO - 127.0.0.1 - - [01/Apr/2025 19:17:13] "POST /chat HTTP/1.1" 200 -
+2025-04-01 19:17:27,678 - INFO - Received message from session default: what can you help me with
+2025-04-01 19:17:27,972 - INFO - Processed message. Tokens: ['what', 'can', 'you', 'help', 'me', 'with'] | Entities: []
+2025-04-01 19:17:27,972 - INFO - Updated session default history. Total messages: 8
+2025-04-01 19:17:27,973 - INFO - 127.0.0.1 - - [01/Apr/2025 19:17:27] "POST /chat HTTP/1.1" 200 -
+2025-04-01 19:17:41,779 - INFO - Received message from session default: Carrer advice
+2025-04-01 19:17:41,975 - INFO - Processed message. Tokens: ['Carrer', 'advice'] | Entities: [('Carrer', 'PERSON')]
+2025-04-01 19:17:41,975 - INFO - Updated session default history. Total messages: 10
+2025-04-01 19:17:41,975 - INFO - 127.0.0.1 - - [01/Apr/2025 19:17:41] "POST /chat HTTP/1.1" 200 -
+2025-04-01 19:18:04,983 - INFO - Received message from session default: career advice. on data engineering
+2025-04-01 19:18:05,316 - INFO - Processed message. Tokens: ['career', 'advice', '.', 'on', 'data', 'engineering'] | Entities: []
+2025-04-01 19:18:06,619 - ERROR - Exception during API call: HTTPSConnectionPool(host='api.example.com', port=443): Max retries exceeded with url: /jobs (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000219B2B80050>: Failed to resolve 'api.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-04-01 19:18:06,619 - ERROR - Error reading CSV: [Errno 2] No such file or directory: 'job_listing_data.csv'
+2025-04-01 19:18:06,620 - INFO - Updated session default history. Total messages: 12
+2025-04-01 19:18:06,620 - INFO - 127.0.0.1 - - [01/Apr/2025 19:18:06] "POST /chat HTTP/1.1" 200 -
+2025-04-01 19:55:41,757 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\app.py', reloading
+2025-04-01 19:55:42,614 - INFO -  * Restarting with stat
+2025-04-01 19:57:00,365 - ERROR - Error reading CSV: [Errno 2] No such file or directory: 'job_listing_data.csv'
+2025-04-01 19:57:00,365 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-01 19:57:00,408 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-01 19:57:00,408 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-01 19:57:00,413 - INFO -  * Restarting with stat
+2025-04-01 19:57:15,000 - ERROR - Error reading CSV: [Errno 2] No such file or directory: 'job_listing_data.csv'
+2025-04-01 19:57:15,000 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-01 19:57:15,014 - WARNING -  * Debugger is active!
+2025-04-01 19:57:15,021 - INFO -  * Debugger PIN: 137-857-803
+2025-04-01 19:57:29,033 - INFO - 127.0.0.1 - - [01/Apr/2025 19:57:29] "GET / HTTP/1.1" 200 -
+2025-04-01 19:57:29,210 - INFO - 127.0.0.1 - - [01/Apr/2025 19:57:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-01 19:57:37,257 - INFO - Received message from session default: jobs
+2025-04-01 19:57:37,372 - INFO - Processed message. Tokens: ['jobs'] | Entities: []
+2025-04-01 19:57:37,675 - WARNING - Scraping failed, status code: 403
+2025-04-01 19:57:37,675 - ERROR - Error reading CSV: [Errno 2] No such file or directory: 'job_listing_data.csv'
+2025-04-01 19:57:37,676 - INFO - Updated session default history. Total messages: 2
+2025-04-01 19:57:37,677 - INFO - 127.0.0.1 - - [01/Apr/2025 19:57:37] "POST /chat HTTP/1.1" 200 -
+2025-04-02 16:42:14,124 - INFO - Loaded job listings from CSV.
+2025-04-02 16:42:14,125 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-02 16:42:14,180 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-02 16:42:14,180 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-02 16:42:14,199 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-02 16:42:30,408 - INFO - Loaded job listings from CSV.
+2025-04-02 16:42:30,409 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-02 16:42:30,432 - WARNING -  * Debugger is active!
+2025-04-02 16:42:30,448 - INFO -  * Debugger PIN: 133-404-908
+2025-04-02 16:42:30,873 - INFO - 127.0.0.1 - - [02/Apr/2025 16:42:30] "GET / HTTP/1.1" 200 -
+2025-04-02 16:42:31,005 - INFO - 127.0.0.1 - - [02/Apr/2025 16:42:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-02 16:42:39,541 - INFO - Received message from session default: Hey
+2025-04-02 16:42:39,811 - INFO - Processed message. Tokens: ['Hey'] | Entities: []
+2025-04-02 16:42:39,812 - INFO - Updated session default history. Total messages: 2
+2025-04-02 16:42:39,812 - INFO - 127.0.0.1 - - [02/Apr/2025 16:42:39] "POST /chat HTTP/1.1" 200 -
+2025-04-02 16:42:46,902 - INFO - Received message from session default: Jobs
+2025-04-02 16:42:46,997 - INFO - Processed message. Tokens: ['Jobs'] | Entities: []
+2025-04-02 16:42:47,267 - WARNING - Scraping failed, status code: 403
+2025-04-02 16:42:47,359 - INFO - Loaded job listings from CSV.
+2025-04-02 16:42:47,362 - INFO - Updated session default history. Total messages: 4
+2025-04-02 16:42:47,363 - INFO - 127.0.0.1 - - [02/Apr/2025 16:42:47] "POST /chat HTTP/1.1" 200 -
+2025-04-02 16:45:39,674 - INFO - Loaded job listings from CSV.
+2025-04-02 16:45:39,674 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-02 16:45:39,709 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-02 16:45:39,709 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-02 16:45:39,734 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-02 16:45:55,337 - INFO - Loaded job listings from CSV.
+2025-04-02 16:45:55,337 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-02 16:45:55,362 - WARNING -  * Debugger is active!
+2025-04-02 16:45:55,379 - INFO -  * Debugger PIN: 133-404-908
+2025-04-02 16:45:55,751 - INFO - 127.0.0.1 - - [02/Apr/2025 16:45:55] "GET / HTTP/1.1" 200 -
+2025-04-02 16:46:03,227 - INFO - Received message from session default: jobs
+2025-04-02 16:46:03,332 - INFO - Processed message. Tokens: ['jobs'] | Entities: []
+2025-04-02 16:46:03,726 - WARNING - Scraping failed, status code: 403
+2025-04-02 16:46:03,808 - INFO - Loaded job listings from CSV.
+2025-04-02 16:46:03,811 - INFO - Updated session default history. Total messages: 2
+2025-04-02 16:46:03,812 - INFO - 127.0.0.1 - - [02/Apr/2025 16:46:03] "POST /chat HTTP/1.1" 200 -
+2025-04-02 16:46:18,824 - INFO - Received message from session default: Looking for data jobs
+2025-04-02 16:46:19,060 - INFO - Processed message. Tokens: ['Looking', 'for', 'data', 'jobs'] | Entities: []
+2025-04-02 16:46:19,273 - WARNING - Scraping failed, status code: 403
+2025-04-02 16:46:19,411 - INFO - Loaded job listings from CSV.
+2025-04-02 16:46:19,416 - INFO - Updated session default history. Total messages: 4
+2025-04-02 16:46:19,417 - INFO - 127.0.0.1 - - [02/Apr/2025 16:46:19] "POST /chat HTTP/1.1" 200 -
+2025-04-02 16:46:38,046 - INFO - Received message from session default: looking for teaching job
+2025-04-02 16:46:38,345 - INFO - Processed message. Tokens: ['looking', 'for', 'teaching', 'job'] | Entities: []
+2025-04-02 16:46:38,551 - WARNING - Scraping failed, status code: 403
+2025-04-02 16:46:38,663 - INFO - Loaded job listings from CSV.
+2025-04-02 16:46:38,667 - INFO - Updated session default history. Total messages: 6
+2025-04-02 16:46:38,668 - INFO - 127.0.0.1 - - [02/Apr/2025 16:46:38] "POST /chat HTTP/1.1" 200 -
+2025-04-02 16:50:35,979 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\venv\\Lib\\site-packages\\flask_cors\\__init__.py', reloading
+2025-04-02 16:50:37,987 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-02 16:50:47,409 - ERROR - Cannot load model from C:\Users\akhil\stanza_resources\en\ner\ontonotes-ww-multi_charlm.pt
+2025-04-02 16:51:33,823 - INFO - Loaded job listings from CSV.
+2025-04-02 16:51:33,823 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-02 16:51:33,882 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-02 16:51:33,883 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-02 16:51:33,939 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-02 16:51:49,290 - INFO - Loaded job listings from CSV.
+2025-04-02 16:51:49,290 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-02 16:51:49,317 - WARNING -  * Debugger is active!
+2025-04-02 16:51:49,334 - INFO -  * Debugger PIN: 133-404-908
+2025-04-02 16:51:49,664 - INFO - 127.0.0.1 - - [02/Apr/2025 16:51:49] "GET / HTTP/1.1" 200 -
+2025-04-02 16:51:49,668 - INFO - 127.0.0.1 - - [02/Apr/2025 16:51:49] "GET / HTTP/1.1" 200 -
+2025-04-02 16:51:57,450 - INFO - Received message from session default: jobs
+2025-04-02 16:51:57,538 - INFO - Processed message. Tokens: ['jobs'] | Entities: []
+2025-04-02 16:51:57,587 - INFO - Extracted keywords for job search: {'jobs'}
+2025-04-02 16:51:57,606 - INFO - Found 52 matching job listings for query: jobs
+2025-04-02 16:51:57,607 - INFO - Updated session default history. Total messages: 2
+2025-04-02 16:51:57,607 - INFO - 127.0.0.1 - - [02/Apr/2025 16:51:57] "POST /chat HTTP/1.1" 200 -
+2025-04-02 16:52:09,938 - INFO - Received message from session default: data jobs
+2025-04-02 16:52:10,009 - INFO - Processed message. Tokens: ['data', 'jobs'] | Entities: []
+2025-04-02 16:52:10,069 - INFO - Extracted keywords for job search: {'jobs', 'data'}
+2025-04-02 16:52:10,090 - INFO - Found 777 matching job listings for query: data jobs
+2025-04-02 16:52:10,090 - INFO - Updated session default history. Total messages: 4
+2025-04-02 16:52:10,090 - INFO - 127.0.0.1 - - [02/Apr/2025 16:52:10] "POST /chat HTTP/1.1" 200 -
+2025-04-02 16:52:33,367 - INFO - Received message from session default: Data engineering jobs with 2.5 years experience
+2025-04-02 16:52:33,503 - INFO - Processed message. Tokens: ['Data', 'engineering', 'jobs', 'with', '2.5', 'years', 'experience'] | Entities: [('2.5 years', 'DATE')]
+2025-04-02 16:52:33,610 - INFO - Extracted keywords for job search: {'experience', 'jobs', 'years', 'with', 'data', '2.5', 'engineering'}
+2025-04-02 16:52:33,632 - INFO - Found 3617 matching job listings for query: Data engineering jobs with 2.5 years experience
+2025-04-02 16:52:33,632 - INFO - Updated session default history. Total messages: 6
+2025-04-02 16:52:33,632 - INFO - 127.0.0.1 - - [02/Apr/2025 16:52:33] "POST /chat HTTP/1.1" 200 -
+2025-04-02 16:52:49,781 - INFO - Received message from session default: fullstack developer wiht 1 year of experince
+2025-04-02 16:52:49,908 - INFO - Processed message. Tokens: ['fullstack', 'developer', 'wiht', '1', 'year', 'of', 'experince'] | Entities: [('1 year', 'DATE')]
+2025-04-02 16:52:49,909 - INFO - Updated session default history. Total messages: 8
+2025-04-02 16:52:49,909 - INFO - 127.0.0.1 - - [02/Apr/2025 16:52:49] "POST /chat HTTP/1.1" 200 -
+2025-04-02 16:53:05,059 - INFO - Received message from session default: fullstack developer oppertunities
+2025-04-02 16:53:05,176 - INFO - Processed message. Tokens: ['fullstack', 'developer', 'oppertunities'] | Entities: []
+2025-04-02 16:53:05,176 - INFO - Updated session default history. Total messages: 10
+2025-04-02 16:53:05,177 - INFO - 127.0.0.1 - - [02/Apr/2025 16:53:05] "POST /chat HTTP/1.1" 200 -
+2025-04-02 16:53:18,561 - INFO - Received message from session default: cloud jobs
+2025-04-02 16:53:18,626 - INFO - Processed message. Tokens: ['cloud', 'jobs'] | Entities: []
+2025-04-02 16:53:18,671 - INFO - Extracted keywords for job search: {'jobs', 'cloud'}
+2025-04-02 16:53:18,690 - INFO - Found 410 matching job listings for query: cloud jobs
+2025-04-02 16:53:18,690 - INFO - Updated session default history. Total messages: 12
+2025-04-02 16:53:18,691 - INFO - 127.0.0.1 - - [02/Apr/2025 16:53:18] "POST /chat HTTP/1.1" 200 -
+2025-04-02 16:53:31,221 - INFO - Received message from session default: Apache nifi jobs
+2025-04-02 16:53:31,325 - INFO - Processed message. Tokens: ['Apache', 'nifi', 'jobs'] | Entities: []
+2025-04-02 16:53:31,394 - INFO - Extracted keywords for job search: {'nifi', 'jobs', 'apache'}
+2025-04-02 16:53:31,416 - INFO - Found 107 matching job listings for query: Apache nifi jobs
+2025-04-02 16:53:31,416 - INFO - Updated session default history. Total messages: 14
+2025-04-02 16:53:31,416 - INFO - 127.0.0.1 - - [02/Apr/2025 16:53:31] "POST /chat HTTP/1.1" 200 -
+2025-04-02 16:53:44,199 - INFO - Received message from session default: FullStack Developer Jobs
+2025-04-02 16:53:44,339 - INFO - Processed message. Tokens: ['FullStack', 'Developer', 'Jobs'] | Entities: []
+2025-04-02 16:53:44,423 - INFO - Extracted keywords for job search: {'jobs', 'developer', 'fullstack'}
+2025-04-02 16:53:44,444 - INFO - Found 592 matching job listings for query: FullStack Developer Jobs
+2025-04-02 16:53:44,444 - INFO - Updated session default history. Total messages: 16
+2025-04-02 16:53:44,444 - INFO - 127.0.0.1 - - [02/Apr/2025 16:53:44] "POST /chat HTTP/1.1" 200 -
+2025-04-02 16:55:27,253 - INFO - 127.0.0.1 - - [02/Apr/2025 16:55:27] "GET / HTTP/1.1" 200 -
+2025-04-02 16:55:27,374 - INFO - 127.0.0.1 - - [02/Apr/2025 16:55:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-02 16:56:38,116 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\app.py', reloading
+2025-04-02 16:56:38,116 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\app.py', reloading
+2025-04-02 16:56:39,027 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-02 16:56:58,639 - INFO - Loaded job listings from CSV.
+2025-04-02 16:56:58,639 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-02 16:56:58,659 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-02 16:56:58,659 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-02 16:56:58,673 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-02 16:57:13,748 - INFO - Loaded job listings from CSV.
+2025-04-02 16:57:13,748 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-02 16:57:13,769 - WARNING -  * Debugger is active!
+2025-04-02 16:57:13,785 - INFO -  * Debugger PIN: 133-404-908
+2025-04-02 16:57:14,111 - INFO - 127.0.0.1 - - [02/Apr/2025 16:57:14] "GET / HTTP/1.1" 200 -
+2025-04-02 16:58:06,827 - INFO - Loaded job listings from CSV.
+2025-04-02 16:58:06,828 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-02 16:58:06,847 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-02 16:58:06,847 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-02 16:58:06,862 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-02 16:58:22,128 - INFO - Loaded job listings from CSV.
+2025-04-02 16:58:22,129 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-02 16:58:22,151 - WARNING -  * Debugger is active!
+2025-04-02 16:58:22,167 - INFO -  * Debugger PIN: 133-404-908
+2025-04-02 16:58:22,470 - INFO - 127.0.0.1 - - [02/Apr/2025 16:58:22] "GET / HTTP/1.1" 200 -
+2025-04-02 16:58:27,200 - INFO - Received message from session default: Hi
+2025-04-02 16:58:27,343 - INFO - Processed message. Tokens: ['Hi'] | Entities: []
+2025-04-02 16:58:27,343 - INFO - Updated session default history. Total messages: 2
+2025-04-02 16:58:27,344 - INFO - 127.0.0.1 - - [02/Apr/2025 16:58:27] "POST /chat HTTP/1.1" 200 -
+2025-04-02 16:58:40,758 - INFO - Received message from session default: Data Scientist Jobs
+2025-04-02 16:58:40,959 - INFO - Processed message. Tokens: ['Data', 'Scientist', 'Jobs'] | Entities: []
+2025-04-02 16:58:41,168 - INFO - Extracted keywords for job search: {'jobs', 'scientist', 'data'}
+2025-04-02 16:58:41,208 - INFO - Found 782 matching job listings for query: Data Scientist Jobs
+2025-04-02 16:58:41,208 - INFO - Updated session default history. Total messages: 4
+2025-04-02 16:58:41,208 - INFO - 127.0.0.1 - - [02/Apr/2025 16:58:41] "POST /chat HTTP/1.1" 200 -
+2025-04-02 16:58:50,920 - INFO - Received message from session default: FullStack Jobs
+2025-04-02 16:58:51,126 - INFO - Processed message. Tokens: ['FullStack', 'Jobs'] | Entities: []
+2025-04-02 16:58:51,282 - INFO - Extracted keywords for job search: {'fullstack', 'jobs'}
+2025-04-02 16:58:51,320 - INFO - Found 63 matching job listings for query: FullStack Jobs
+2025-04-02 16:58:51,320 - INFO - Updated session default history. Total messages: 6
+2025-04-02 16:58:51,321 - INFO - 127.0.0.1 - - [02/Apr/2025 16:58:51] "POST /chat HTTP/1.1" 200 -
+2025-04-02 16:59:00,852 - INFO - Received message from session default: Python Developer
+2025-04-02 16:59:01,073 - INFO - Processed message. Tokens: ['Python', 'Developer'] | Entities: []
+2025-04-02 16:59:01,073 - INFO - Updated session default history. Total messages: 8
+2025-04-02 16:59:01,074 - INFO - 127.0.0.1 - - [02/Apr/2025 16:59:01] "POST /chat HTTP/1.1" 200 -
+2025-04-02 17:00:18,518 - INFO - Received message from session default: Designer jobs
+2025-04-02 17:00:18,709 - INFO - Processed message. Tokens: ['Designer', 'jobs'] | Entities: []
+2025-04-02 17:00:18,849 - INFO - Extracted keywords for job search: {'designer', 'jobs'}
+2025-04-02 17:00:18,899 - INFO - Found 194 matching job listings for query: Designer jobs
+2025-04-02 17:00:18,899 - INFO - Updated session default history. Total messages: 10
+2025-04-02 17:00:18,900 - INFO - 127.0.0.1 - - [02/Apr/2025 17:00:18] "POST /chat HTTP/1.1" 200 -
+2025-04-02 17:00:38,550 - INFO - Received message from session default: Fashion Designer jobs
+2025-04-02 17:00:38,846 - INFO - Processed message. Tokens: ['Fashion', 'Designer', 'jobs'] | Entities: []
+2025-04-02 17:00:39,052 - INFO - Extracted keywords for job search: {'designer', 'fashion', 'jobs'}
+2025-04-02 17:00:39,092 - INFO - Found 215 matching job listings for query: Fashion Designer jobs
+2025-04-02 17:00:39,092 - INFO - Updated session default history. Total messages: 12
+2025-04-02 17:00:39,093 - INFO - 127.0.0.1 - - [02/Apr/2025 17:00:39] "POST /chat HTTP/1.1" 200 -
+2025-04-02 17:00:58,371 - INFO - Received message from session default: Fashion Designer at Braeking, can you rpovide link
+2025-04-02 17:00:58,889 - INFO - Processed message. Tokens: ['Fashion', 'Designer', 'at', 'Braeking', ',', 'can', 'you', 'rpovide', 'link'] | Entities: [('Braeking', 'GPE')]
+2025-04-02 17:00:58,889 - INFO - Updated session default history. Total messages: 14
+2025-04-02 17:00:58,890 - INFO - 127.0.0.1 - - [02/Apr/2025 17:00:58] "POST /chat HTTP/1.1" 200 -
+2025-04-02 17:01:15,111 - INFO - Received message from session default: Fashion Designer at Braeking - waht skills are requried
+2025-04-02 17:01:15,604 - INFO - Processed message. Tokens: ['Fashion', 'Designer', 'at', 'Braeking', '-', 'waht', 'skills', 'are', 'requried'] | Entities: [('Braeking - waht', 'ORG')]
+2025-04-02 17:01:15,605 - INFO - Updated session default history. Total messages: 16
+2025-04-02 17:01:15,606 - INFO - 127.0.0.1 - - [02/Apr/2025 17:01:15] "POST /chat HTTP/1.1" 200 -
+2025-04-02 17:01:26,839 - INFO - Received message from session default: Fashion Designer at Braeking - salary
+2025-04-02 17:01:27,234 - INFO - Processed message. Tokens: ['Fashion', 'Designer', 'at', 'Braeking', '-', 'salary'] | Entities: [('Braeking', 'ORG')]
+2025-04-02 17:01:27,234 - INFO - Updated session default history. Total messages: 18
+2025-04-02 17:01:27,234 - INFO - 127.0.0.1 - - [02/Apr/2025 17:01:27] "POST /chat HTTP/1.1" 200 -
+2025-04-02 17:42:03,458 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\venv\\Lib\\site-packages\\flask\\__init__.py', reloading
+2025-04-02 17:42:03,492 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\venv\\Lib\\site-packages\\flask\\app.py', reloading
+2025-04-02 17:42:03,547 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\venv\\Lib\\site-packages\\flask\\sansio\\app.py', reloading
+2025-04-02 17:42:03,584 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\venv\\Lib\\site-packages\\flask\\sansio\\scaffold.py', reloading
+2025-04-02 17:42:03,600 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\venv\\Lib\\site-packages\\flask\\globals.py', reloading
+2025-04-02 17:42:03,626 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\venv\\Lib\\site-packages\\flask\\wrappers.py', reloading
+2025-04-02 17:42:03,636 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\venv\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+2025-04-02 17:42:03,663 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\venv\\Lib\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+2025-04-02 17:42:03,714 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\venv\\Lib\\site-packages\\werkzeug\\sansio\\request.py', reloading
+2025-04-02 17:42:03,729 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\venv\\Lib\\site-packages\\flask\\json\\__init__.py', reloading
+2025-04-02 17:42:03,764 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\venv\\Lib\\site-packages\\werkzeug\\wrappers\\response.py', reloading
+2025-04-02 17:42:03,808 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\venv\\Lib\\site-packages\\werkzeug\\sansio\\response.py', reloading
+2025-04-02 17:42:03,827 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\venv\\Lib\\site-packages\\flask\\templating.py', reloading
+2025-04-02 17:42:03,834 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\venv\\Lib\\site-packages\\jinja2\\__init__.py', reloading
+2025-04-02 17:42:03,871 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\venv\\Lib\\site-packages\\jinja2\\environment.py', reloading
+2025-04-02 17:42:03,923 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\venv\\Lib\\site-packages\\stanza\\__init__.py', reloading
+2025-04-02 17:42:03,954 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\venv\\Lib\\site-packages\\bs4\\__init__.py', reloading
+2025-04-02 17:42:04,020 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\venv\\Lib\\site-packages\\bs4\\element.py', reloading
+2025-04-02 17:42:04,111 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\venv\\Lib\\site-packages\\flask\\config.py', reloading
+2025-04-02 17:42:04,123 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\venv\\Lib\\site-packages\\flask\\blueprints.py', reloading
+2025-04-02 17:42:04,154 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\venv\\Lib\\site-packages\\flask\\sansio\\blueprints.py', reloading
+2025-04-02 17:42:04,196 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\venv\\Lib\\site-packages\\stanza\\pipeline\\core.py', reloading
+2025-04-02 17:42:04,207 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\venv\\Lib\\site-packages\\stanza\\pipeline\\_constants.py', reloading
+2025-04-02 17:42:04,995 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-02 17:42:34,081 - INFO - Loaded job listings from CSV.
+2025-04-02 17:42:34,082 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-02 17:42:34,171 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-02 17:42:34,172 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-02 17:42:34,210 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-02 17:42:49,852 - INFO - Loaded job listings from CSV.
+2025-04-02 17:42:49,852 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-02 17:42:49,871 - WARNING -  * Debugger is active!
+2025-04-02 17:42:49,881 - INFO -  * Debugger PIN: 133-404-908
+2025-04-02 17:42:50,202 - INFO - 127.0.0.1 - - [02/Apr/2025 17:42:50] "GET / HTTP/1.1" 200 -
+2025-04-02 17:43:14,739 - INFO - Received message from session default: Jobs in data engineering
+2025-04-02 17:43:15,021 - INFO - Processed message. Tokens: ['Jobs', 'in', 'data', 'engineering'] | Entities: []
+2025-04-02 17:43:15,286 - INFO - Extracted keywords for job search: {'jobs', 'engineering', 'data'}
+2025-04-02 17:43:15,353 - INFO - Found 4400 matching job listings for query: Jobs in data engineering
+2025-04-02 17:43:15,354 - INFO - Updated session default history. Total messages: 2
+2025-04-02 17:43:15,355 - INFO - 127.0.0.1 - - [02/Apr/2025 17:43:15] "POST /chat HTTP/1.1" 200 -
+2025-04-02 17:43:25,359 - INFO - Received message from session default: jobs in design
+2025-04-02 17:43:25,555 - INFO - Processed message. Tokens: ['jobs', 'in', 'design'] | Entities: []
+2025-04-02 17:43:25,722 - INFO - Extracted keywords for job search: {'jobs', 'design'}
+2025-04-02 17:43:25,782 - INFO - Found 4400 matching job listings for query: jobs in design
+2025-04-02 17:43:25,783 - INFO - Updated session default history. Total messages: 4
+2025-04-02 17:43:25,784 - INFO - 127.0.0.1 - - [02/Apr/2025 17:43:25] "POST /chat HTTP/1.1" 200 -
+2025-04-02 17:43:39,473 - INFO - Received message from session default: salary at Facade Design Head (AGM/GM) at The Search House
+2025-04-02 17:43:40,002 - INFO - Processed message. Tokens: ['salary', 'at', 'Facade', 'Design', 'Head', '(', 'AGM', '/', 'GM', ')', 'at', 'The', 'Search', 'House'] | Entities: [('Facade Design Head', 'ORG'), ('AGM', 'ORG'), ('GM', 'ORG'), ('The Search House', 'ORG')]
+2025-04-02 17:43:40,583 - INFO - Extracted keywords for job search: {'design', 'house', 'search', 'agm', 'head', 'facade', 'salary', 'the'}
+2025-04-02 17:43:40,656 - INFO - Found 3999 matching job listings for query: salary at Facade Design Head (AGM/GM) at The Search House
+2025-04-02 17:43:40,657 - INFO - Updated session default history. Total messages: 6
+2025-04-02 17:43:40,658 - INFO - 127.0.0.1 - - [02/Apr/2025 17:43:40] "POST /chat HTTP/1.1" 200 -
+2025-04-02 17:44:01,564 - INFO - Received message from session default: skill required for  Facade Design Head (AGM/GM) at The Search House
+2025-04-02 17:44:02,135 - INFO - Processed message. Tokens: ['skill', 'required', 'for', 'Facade', 'Design', 'Head', '(', 'AGM', '/', 'GM', ')', 'at', 'The', 'Search', 'House'] | Entities: [('Facade Design Head', 'ORG'), ('AGM', 'ORG'), ('GM', 'ORG'), ('The Search House', 'ORG')]
+2025-04-02 17:44:02,695 - INFO - Extracted keywords for job search: {'design', 'house', 'skill', 'agm', 'head', 'facade', 'search', 'required', 'for', 'the'}
+2025-04-02 17:44:02,791 - INFO - Found 4324 matching job listings for query: skill required for  Facade Design Head (AGM/GM) at The Search House
+2025-04-02 17:44:02,791 - INFO - Updated session default history. Total messages: 8
+2025-04-02 17:44:02,793 - INFO - 127.0.0.1 - - [02/Apr/2025 17:44:02] "POST /chat HTTP/1.1" 200 -
+2025-04-02 17:44:30,275 - INFO - Received message from session default: experience required for Facade Design Head (AGM/GM) at The Search House
+2025-04-02 17:44:30,866 - INFO - Processed message. Tokens: ['experience', 'required', 'for', 'Facade', 'Design', 'Head', '(', 'AGM', '/', 'GM', ')', 'at', 'The', 'Search', 'House'] | Entities: [('Facade Design Head', 'ORG'), ('AGM', 'ORG'), ('GM', 'ORG'), ('The Search House', 'ORG')]
+2025-04-02 17:44:30,867 - INFO - Updated session default history. Total messages: 10
+2025-04-02 17:44:30,867 - INFO - 127.0.0.1 - - [02/Apr/2025 17:44:30] "POST /chat HTTP/1.1" 200 -
+2025-04-02 17:44:48,791 - INFO - Received message from session default:  experience required for Data Engineer - ETL at NETSCRIBES DATA INSIGHTS PRIVATE LIMITED
+2025-04-02 17:44:49,547 - INFO - Processed message. Tokens: ['experience', 'required', 'for', 'Data', 'Engineer', '-', 'ETL', 'at', 'NETSCRIBES', 'DATA', 'INSIGHTS', 'PRIVATE', 'LIMITED'] | Entities: []
+2025-04-02 17:44:49,547 - INFO - Updated session default history. Total messages: 12
+2025-04-02 17:44:49,548 - INFO - 127.0.0.1 - - [02/Apr/2025 17:44:49] "POST /chat HTTP/1.1" 200 -
+2025-04-02 17:45:07,416 - INFO - Received message from session default: contract time for Data Engineer - ETL at NETSCRIBES DATA INSIGHTS PRIVATE LIMITED
+2025-04-02 17:45:08,114 - INFO - Processed message. Tokens: ['contract', 'time', 'for', 'Data', 'Engineer', '-', 'ETL', 'at', 'NETSCRIBES', 'DATA', 'INSIGHTS', 'PRIVATE', 'LIMITED'] | Entities: [('Data Engineer - ETL', 'ORG')]
+2025-04-02 17:45:08,114 - INFO - Updated session default history. Total messages: 14
+2025-04-02 17:45:08,115 - INFO - 127.0.0.1 - - [02/Apr/2025 17:45:08] "POST /chat HTTP/1.1" 200 -
+2025-04-02 17:45:25,168 - INFO - Received message from session default: salary range for  for Data Engineer - ETL at NETSCRIBES DATA INSIGHTS PRIVATE LIMITED
+2025-04-02 17:45:25,803 - INFO - Processed message. Tokens: ['salary', 'range', 'for', 'for', 'Data', 'Engineer', '-', 'ETL', 'at', 'NETSCRIBES', 'DATA', 'INSIGHTS', 'PRIVATE', 'LIMITED'] | Entities: []
+2025-04-02 17:45:26,469 - INFO - Extracted keywords for job search: {'etl', 'netscribes', 'limited', 'insights', 'data', 'private', 'range', 'engineer', 'salary', 'for'}
+2025-04-02 17:45:26,549 - INFO - Found 3917 matching job listings for query: salary range for  for Data Engineer - ETL at NETSCRIBES DATA INSIGHTS PRIVATE LIMITED
+2025-04-02 17:45:26,553 - INFO - Updated session default history. Total messages: 16
+2025-04-02 17:45:26,553 - INFO - 127.0.0.1 - - [02/Apr/2025 17:45:26] "POST /chat HTTP/1.1" 200 -
+2025-04-02 17:45:35,140 - INFO - Received message from session default: 1
+2025-04-02 17:45:35,249 - INFO - Processed message. Tokens: ['1'] | Entities: [('1', 'CARDINAL')]
+2025-04-02 17:45:35,249 - INFO - Updated session default history. Total messages: 18
+2025-04-02 17:45:35,250 - INFO - 127.0.0.1 - - [02/Apr/2025 17:45:35] "POST /chat HTTP/1.1" 200 -
+2025-04-02 17:45:55,141 - INFO - Received message from session default: provide link so i can apply for : for Data Engineer - ETL at NETSCRIBES DATA INSIGHTS PRIVATE LIMITED
+2025-04-02 17:45:56,001 - INFO - Processed message. Tokens: ['provide', 'link', 'so', 'i', 'can', 'apply', 'for', ':', 'for', 'Data', 'Engineer', '-', 'ETL', 'at', 'NETSCRIBES', 'DATA', 'INSIGHTS', 'PRIVATE', 'LIMITED'] | Entities: []
+2025-04-02 17:45:56,782 - INFO - Extracted keywords for job search: {'etl', 'link', 'netscribes', 'can', 'limited', 'insights', 'apply', 'provide', 'data', 'private', 'engineer', 'for'}
+2025-04-02 17:45:56,903 - INFO - Found 4064 matching job listings for query: provide link so i can apply for : for Data Engineer - ETL at NETSCRIBES DATA INSIGHTS PRIVATE LIMITED
+2025-04-02 17:45:56,907 - INFO - Updated session default history. Total messages: 20
+2025-04-02 17:45:56,908 - INFO - 127.0.0.1 - - [02/Apr/2025 17:45:56] "POST /chat HTTP/1.1" 200 -
+2025-04-02 17:46:08,377 - INFO - Received message from session default: link to apply fro Netscribes - Data Engineer
+2025-04-02 17:46:08,849 - INFO - Processed message. Tokens: ['link', 'to', 'apply', 'fro', 'Netscribes', '-', 'Data', 'Engineer'] | Entities: []
+2025-04-02 17:46:09,266 - INFO - Extracted keywords for job search: {'link', 'netscribes', 'apply', 'data', 'engineer', 'fro'}
+2025-04-02 17:46:09,330 - INFO - Found 2348 matching job listings for query: link to apply fro Netscribes - Data Engineer
+2025-04-02 17:46:09,332 - INFO - Updated session default history. Total messages: 22
+2025-04-02 17:46:09,333 - INFO - 127.0.0.1 - - [02/Apr/2025 17:46:09] "POST /chat HTTP/1.1" 200 -
+2025-04-02 17:50:06,380 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\app.py', reloading
+2025-04-02 17:50:06,382 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\app.py', reloading
+2025-04-02 17:50:07,475 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-02 17:52:45,116 - INFO - Loaded job listings from CSV.
+2025-04-02 17:52:45,116 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-02 17:52:45,168 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-02 17:52:45,169 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-02 17:52:45,211 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-02 17:53:00,312 - INFO - Loaded job listings from CSV.
+2025-04-02 17:53:00,312 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-02 17:53:00,333 - WARNING -  * Debugger is active!
+2025-04-02 17:53:00,345 - INFO -  * Debugger PIN: 133-404-908
+2025-04-02 17:53:00,623 - INFO - 127.0.0.1 - - [02/Apr/2025 17:53:00] "GET / HTTP/1.1" 200 -
+2025-04-02 17:53:00,627 - INFO - 127.0.0.1 - - [02/Apr/2025 17:53:00] "GET / HTTP/1.1" 200 -
+2025-04-02 17:53:16,489 - INFO - Received message from session default: data engineering jobs
+2025-04-02 17:53:16,827 - INFO - Processed message. Tokens: ['data', 'engineering', 'jobs'] | Entities: []
+2025-04-02 17:53:17,051 - INFO - Extracted keywords for job search: {'jobs', 'engineering', 'data'}
+2025-04-02 17:53:17,109 - INFO - Found 4400 matching job listings for query: data engineering jobs
+2025-04-02 17:53:17,110 - INFO - Updated session default history. Total messages: 2
+2025-04-02 17:53:17,111 - INFO - 127.0.0.1 - - [02/Apr/2025 17:53:17] "POST /chat HTTP/1.1" 200 -
+2025-04-02 17:53:25,660 - INFO - Received message from session default: full stack jobs
+2025-04-02 17:53:25,875 - INFO - Processed message. Tokens: ['full', 'stack', 'jobs'] | Entities: []
+2025-04-02 17:53:26,067 - INFO - Extracted keywords for job search: {'full', 'stack', 'jobs'}
+2025-04-02 17:53:26,129 - INFO - Found 4400 matching job listings for query: full stack jobs
+2025-04-02 17:53:26,129 - INFO - Updated session default history. Total messages: 4
+2025-04-02 17:53:26,130 - INFO - 127.0.0.1 - - [02/Apr/2025 17:53:26] "POST /chat HTTP/1.1" 200 -
+2025-04-02 17:53:42,717 - INFO - Received message from session default:  Full Stack Developer - Python/React.js - experience required 
+2025-04-02 17:53:43,251 - INFO - Processed message. Tokens: ['Full', 'Stack', 'Developer', '-', 'Python', '/', 'React.js', '-', 'experience', 'required'] | Entities: []
+2025-04-02 17:53:43,756 - INFO - Extracted keywords for job search: {'python', 'stack', 'developer', 'full', 'react.js', 'experience', 'required'}
+2025-04-02 17:53:43,821 - INFO - Found 2300 matching job listings for query:  Full Stack Developer - Python/React.js - experience required 
+2025-04-02 17:53:43,821 - INFO - Updated session default history. Total messages: 6
+2025-04-02 17:53:43,822 - INFO - 127.0.0.1 - - [02/Apr/2025 17:53:43] "POST /chat HTTP/1.1" 200 -
+2025-04-02 17:53:55,018 - INFO - Received message from session default: 1
+2025-04-02 17:53:55,019 - INFO - Updated session default history. Total messages: 8
+2025-04-02 17:53:55,019 - INFO - 127.0.0.1 - - [02/Apr/2025 17:53:55] "POST /chat HTTP/1.1" 200 -
+2025-04-02 17:53:59,459 - INFO - Received message from session default: 2
+2025-04-02 17:53:59,611 - INFO - Processed message. Tokens: ['2'] | Entities: [('2', 'CARDINAL')]
+2025-04-02 17:53:59,611 - INFO - Updated session default history. Total messages: 10
+2025-04-02 17:53:59,611 - INFO - 127.0.0.1 - - [02/Apr/2025 17:53:59] "POST /chat HTTP/1.1" 200 -
+2025-04-02 17:54:02,983 - INFO - Received message from session default: 3
+2025-04-02 17:54:03,066 - INFO - Processed message. Tokens: ['3'] | Entities: [('3', 'CARDINAL')]
+2025-04-02 17:54:03,067 - INFO - Updated session default history. Total messages: 12
+2025-04-02 17:54:03,067 - INFO - 127.0.0.1 - - [02/Apr/2025 17:54:03] "POST /chat HTTP/1.1" 200 -
+2025-04-02 17:54:08,428 - INFO - Received message from session default: Full Stack Developer - Python/React.js - experience required
+2025-04-02 17:54:08,997 - INFO - Processed message. Tokens: ['Full', 'Stack', 'Developer', '-', 'Python', '/', 'React.js', '-', 'experience', 'required'] | Entities: []
+2025-04-02 17:54:09,516 - INFO - Extracted keywords for job search: {'python', 'stack', 'developer', 'full', 'react.js', 'experience', 'required'}
+2025-04-02 17:54:09,579 - INFO - Found 2300 matching job listings for query: Full Stack Developer - Python/React.js - experience required
+2025-04-02 17:54:09,580 - INFO - Updated session default history. Total messages: 14
+2025-04-02 17:54:09,580 - INFO - 127.0.0.1 - - [02/Apr/2025 17:54:09] "POST /chat HTTP/1.1" 200 -
+2025-04-02 17:54:15,497 - INFO - Received message from session default: 2
+2025-04-02 17:54:15,497 - INFO - Updated session default history. Total messages: 16
+2025-04-02 17:54:15,498 - INFO - 127.0.0.1 - - [02/Apr/2025 17:54:15] "POST /chat HTTP/1.1" 200 -
+2025-04-02 17:54:20,578 - INFO - Received message from session default: Full Stack Developer - Python/React.js - experience required
+2025-04-02 17:54:21,140 - INFO - Processed message. Tokens: ['Full', 'Stack', 'Developer', '-', 'Python', '/', 'React.js', '-', 'experience', 'required'] | Entities: []
+2025-04-02 17:54:21,736 - INFO - Extracted keywords for job search: {'python', 'stack', 'developer', 'full', 'react.js', 'experience', 'required'}
+2025-04-02 17:54:21,806 - INFO - Found 2300 matching job listings for query: Full Stack Developer - Python/React.js - experience required
+2025-04-02 17:54:21,806 - INFO - Updated session default history. Total messages: 18
+2025-04-02 17:54:21,807 - INFO - 127.0.0.1 - - [02/Apr/2025 17:54:21] "POST /chat HTTP/1.1" 200 -
+2025-04-02 17:54:25,312 - INFO - Received message from session default: 3
+2025-04-02 17:54:25,312 - INFO - Updated session default history. Total messages: 20
+2025-04-02 17:54:25,313 - INFO - 127.0.0.1 - - [02/Apr/2025 17:54:25] "POST /chat HTTP/1.1" 200 -
+2025-04-02 17:54:33,068 - INFO - Received message from session default: tailor jobs
+2025-04-02 17:54:33,240 - INFO - Processed message. Tokens: ['tailor', 'jobs'] | Entities: []
+2025-04-02 17:54:33,378 - INFO - Extracted keywords for job search: {'tailor', 'jobs'}
+2025-04-02 17:54:33,426 - INFO - Found 4400 matching job listings for query: tailor jobs
+2025-04-02 17:54:33,426 - INFO - Updated session default history. Total messages: 22
+2025-04-02 17:54:33,427 - INFO - 127.0.0.1 - - [02/Apr/2025 17:54:33] "POST /chat HTTP/1.1" 200 -
+2025-04-02 17:54:54,822 - INFO - Received message from session default: all deatils for Electrical Engineer fresher at ROYAL STAFFING SERVICES LLP
+2025-04-02 17:54:55,446 - INFO - Processed message. Tokens: ['all', 'deatils', 'for', 'Electrical', 'Engineer', 'fresher', 'at', 'ROYAL', 'STAFFING', 'SERVICES', 'LLP'] | Entities: [('ROYAL STAFFING SERVICES LLP', 'ORG')]
+2025-04-02 17:54:55,446 - INFO - Updated session default history. Total messages: 24
+2025-04-02 17:54:55,447 - INFO - 127.0.0.1 - - [02/Apr/2025 17:54:55] "POST /chat HTTP/1.1" 200 -
+2025-04-02 18:23:10,775 - INFO - Use pytorch device_name: cpu
+2025-04-02 18:23:10,776 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-02 18:23:22,952 - INFO - Loaded 4400 job listings from CSV.
+2025-04-02 18:23:22,952 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-02 18:26:11,582 - INFO - Use pytorch device_name: cpu
+2025-04-02 18:26:11,582 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-02 18:26:15,407 - INFO - Loaded 4400 job listings from CSV.
+2025-04-02 18:26:15,408 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-02 18:29:28,087 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-02 18:29:28,087 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-02 18:29:28,106 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-02 18:29:51,880 - INFO - Use pytorch device_name: cpu
+2025-04-02 18:29:51,881 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-02 18:29:55,828 - INFO - Loaded 4400 job listings from CSV.
+2025-04-02 18:29:55,828 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-02 18:33:28,577 - WARNING -  * Debugger is active!
+2025-04-02 18:33:28,583 - INFO -  * Debugger PIN: 133-404-908
+2025-04-02 18:33:28,760 - INFO - 127.0.0.1 - - [02/Apr/2025 18:33:28] "GET / HTTP/1.1" 200 -
+2025-04-02 18:33:28,763 - INFO - 127.0.0.1 - - [02/Apr/2025 18:33:28] "GET / HTTP/1.1" 200 -
+2025-04-02 18:33:28,766 - INFO - 127.0.0.1 - - [02/Apr/2025 18:33:28] "GET / HTTP/1.1" 200 -
+2025-04-02 18:33:57,441 - INFO - Received message from session default: Data Engineering Jobs
+2025-04-02 18:33:57,733 - INFO - Processed message. Tokens: ['Data', 'Engineering', 'Jobs'] | Entities: []
+2025-04-02 18:33:58,606 - INFO - Semantic search found 2058 matching jobs for query: Data Engineering Jobs
+2025-04-02 18:33:58,607 - INFO - Updated session default history. Total messages: 2
+2025-04-02 18:33:58,607 - INFO - 127.0.0.1 - - [02/Apr/2025 18:33:58] "POST /chat HTTP/1.1" 200 -
+2025-04-02 18:34:12,159 - INFO - Received message from session default: salaray range for these jobs
+2025-04-02 18:34:12,477 - INFO - Processed message. Tokens: ['salaray', 'range', 'for', 'these', 'jobs'] | Entities: []
+2025-04-02 18:34:13,543 - INFO - Semantic search found 1607 matching jobs for query: salaray range for these jobs
+2025-04-02 18:34:13,544 - INFO - Updated session default history. Total messages: 4
+2025-04-02 18:34:13,544 - INFO - 127.0.0.1 - - [02/Apr/2025 18:34:13] "POST /chat HTTP/1.1" 200 -
+2025-04-02 18:34:40,318 - INFO - Received message from session default: no i mean i want salary range for these jobs(data engineering
+2025-04-02 18:34:40,879 - INFO - Processed message. Tokens: ['no', 'i', 'mean', 'i', 'want', 'salary', 'range', 'for', 'these', 'jobs', '(', 'data', 'engineering'] | Entities: []
+2025-04-02 18:34:41,974 - INFO - Semantic search found 1864 matching jobs for query: no i mean i want salary range for these jobs(data engineering
+2025-04-02 18:34:41,974 - INFO - Updated session default history. Total messages: 6
+2025-04-02 18:34:41,975 - INFO - 127.0.0.1 - - [02/Apr/2025 18:34:41] "POST /chat HTTP/1.1" 200 -
+2025-04-02 18:34:46,655 - INFO - Received message from session default: 1
+2025-04-02 18:34:46,655 - INFO - Updated session default history. Total messages: 8
+2025-04-02 18:34:46,656 - INFO - 127.0.0.1 - - [02/Apr/2025 18:34:46] "POST /chat HTTP/1.1" 200 -
+2025-04-02 18:34:57,992 - INFO - Received message from session default: waht about experince
+2025-04-02 18:34:58,246 - INFO - Processed message. Tokens: ['waht', 'about', 'experince'] | Entities: []
+2025-04-02 18:34:58,246 - INFO - Updated session default history. Total messages: 10
+2025-04-02 18:34:58,247 - INFO - 127.0.0.1 - - [02/Apr/2025 18:34:58] "POST /chat HTTP/1.1" 200 -
+2025-04-02 18:36:22,517 - INFO - 127.0.0.1 - - [02/Apr/2025 18:36:22] "GET / HTTP/1.1" 200 -
+2025-04-02 18:36:23,599 - INFO - 127.0.0.1 - - [02/Apr/2025 18:36:23] "GET / HTTP/1.1" 200 -
+2025-04-02 18:36:24,015 - INFO - 127.0.0.1 - - [02/Apr/2025 18:36:24] "GET / HTTP/1.1" 200 -
+2025-04-02 18:36:24,193 - INFO - 127.0.0.1 - - [02/Apr/2025 18:36:24] "GET / HTTP/1.1" 200 -
+2025-04-02 18:38:50,999 - INFO - Use pytorch device_name: cpu
+2025-04-02 18:38:50,999 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-02 18:38:55,609 - INFO - Loaded 4400 job listings from CSV.
+2025-04-02 18:38:55,610 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-02 18:43:02,306 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-02 18:43:02,306 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-02 18:43:02,319 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-02 18:43:16,451 - INFO - Use pytorch device_name: cpu
+2025-04-02 18:43:16,451 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-02 18:43:19,838 - INFO - Loaded 4400 job listings from CSV.
+2025-04-02 18:43:19,838 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-02 18:50:25,936 - INFO - Use pytorch device_name: cpu
+2025-04-02 18:50:25,936 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-02 18:50:29,768 - INFO - Loaded 4400 job listings from CSV.
+2025-04-02 18:50:29,769 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-02 18:53:29,215 - INFO - Use pytorch device_name: cpu
+2025-04-02 18:53:29,215 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-02 18:53:32,524 - INFO - Loaded 4400 job listings from CSV.
+2025-04-02 18:53:32,524 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-02 18:56:58,637 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-02 18:56:58,637 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-02 18:56:58,647 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-02 18:57:17,909 - INFO - Use pytorch device_name: cpu
+2025-04-02 18:57:17,909 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-02 18:57:21,104 - INFO - Loaded 4400 job listings from CSV.
+2025-04-02 18:57:21,104 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-02 19:00:45,689 - INFO - Use pytorch device_name: cpu
+2025-04-02 19:00:45,689 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-02 19:00:48,883 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-02 19:01:51,547 - INFO - Use pytorch device_name: cpu
+2025-04-02 19:01:51,547 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-02 19:01:55,569 - INFO - Loaded 4400 job listings from CSV.
+2025-04-02 19:01:55,569 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-02 19:04:40,021 - INFO - Computed and cached job embeddings.
+2025-04-02 19:04:40,062 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-02 19:04:40,062 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-02 19:04:40,086 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-02 19:04:56,961 - INFO - Use pytorch device_name: cpu
+2025-04-02 19:04:56,961 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-02 19:05:00,410 - INFO - Loaded 4400 job listings from CSV.
+2025-04-02 19:05:00,410 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-02 19:05:00,841 - INFO - Loaded cached job embeddings.
+2025-04-02 19:05:00,859 - WARNING -  * Debugger is active!
+2025-04-02 19:05:00,864 - INFO -  * Debugger PIN: 133-404-908
+2025-04-02 19:05:01,028 - INFO - 127.0.0.1 - - [02/Apr/2025 19:05:01] "GET / HTTP/1.1" 200 -
+2025-04-02 19:05:15,274 - INFO - Received message from session default: Hi
+2025-04-02 19:05:15,337 - INFO - Processed message. Tokens: ['Hi'] | Entities: []
+2025-04-02 19:05:15,338 - INFO - Updated session default history. Total messages: 2
+2025-04-02 19:05:15,338 - INFO - 127.0.0.1 - - [02/Apr/2025 19:05:15] "POST /chat HTTP/1.1" 200 -
+2025-04-02 19:05:22,943 - INFO - Received message from session default: Jobs in data engineering
+2025-04-02 19:05:23,019 - INFO - Processed message. Tokens: ['Jobs', 'in', 'data', 'engineering'] | Entities: []
+2025-04-02 19:05:23,223 - INFO - Semantic search found 2433 matching jobs for query: Jobs in data engineering
+2025-04-02 19:05:23,224 - INFO - Updated session default history. Total messages: 4
+2025-04-02 19:05:23,224 - INFO - 127.0.0.1 - - [02/Apr/2025 19:05:23] "POST /chat HTTP/1.1" 200 -
+2025-04-02 19:05:41,435 - INFO - Received message from session default: salary and contract type for above
+2025-04-02 19:05:41,543 - INFO - Processed message. Tokens: ['salary', 'and', 'contract', 'type', 'for', 'above'] | Entities: []
+2025-04-02 19:05:41,734 - INFO - Semantic search found 277 matching jobs for query: salary and contract type for above
+2025-04-02 19:05:41,735 - INFO - Updated session default history. Total messages: 6
+2025-04-02 19:05:41,735 - INFO - 127.0.0.1 - - [02/Apr/2025 19:05:41] "POST /chat HTTP/1.1" 200 -
+2025-04-02 19:06:09,879 - INFO - Received message from session default: no i  mean salary and contract type for data enginnering rtoles
+2025-04-02 19:06:10,051 - INFO - Processed message. Tokens: ['no', 'i', 'mean', 'salary', 'and', 'contract', 'type', 'for', 'data', 'enginnering', 'rtoles'] | Entities: []
+2025-04-02 19:06:10,281 - INFO - Semantic search found 1318 matching jobs for query: no i  mean salary and contract type for data enginnering rtoles
+2025-04-02 19:06:10,281 - INFO - Updated session default history. Total messages: 8
+2025-04-02 19:06:10,282 - INFO - 127.0.0.1 - - [02/Apr/2025 19:06:10] "POST /chat HTTP/1.1" 200 -
+2025-04-02 19:06:34,316 - INFO - Received message from session default: no i want for data engineering roles
+2025-04-02 19:06:34,438 - INFO - Processed message. Tokens: ['no', 'i', 'want', 'for', 'data', 'engineering', 'roles'] | Entities: []
+2025-04-02 19:06:34,438 - INFO - Updated session default history. Total messages: 10
+2025-04-02 19:06:34,439 - INFO - 127.0.0.1 - - [02/Apr/2025 19:06:34] "POST /chat HTTP/1.1" 200 -
+2025-04-02 19:06:47,192 - INFO - Received message from session default: data engineering roles salary and contract
+2025-04-02 19:06:47,336 - INFO - Processed message. Tokens: ['data', 'engineering', 'roles', 'salary', 'and', 'contract'] | Entities: []
+2025-04-02 19:06:47,575 - INFO - Semantic search found 1936 matching jobs for query: data engineering roles salary and contract
+2025-04-02 19:06:47,575 - INFO - Updated session default history. Total messages: 12
+2025-04-02 19:06:47,576 - INFO - 127.0.0.1 - - [02/Apr/2025 19:06:47] "POST /chat HTTP/1.1" 200 -
+2025-04-02 19:06:53,181 - INFO - Received message from session default: 1
+2025-04-02 19:06:53,181 - INFO - Updated session default history. Total messages: 14
+2025-04-02 19:06:53,181 - INFO - 127.0.0.1 - - [02/Apr/2025 19:06:53] "POST /chat HTTP/1.1" 200 -
+2025-04-02 19:08:30,521 - INFO -  * Detected change in 'C:\\Python313\\Lib\\csv.py', reloading
+2025-04-02 19:08:31,844 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-02 19:08:45,062 - INFO - Use pytorch device_name: cpu
+2025-04-02 19:08:45,062 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-02 19:08:48,479 - INFO - Loaded 4400 job listings from CSV.
+2025-04-02 19:08:48,479 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-02 19:08:48,860 - INFO - Loaded cached job embeddings.
+2025-04-02 19:08:48,883 - WARNING -  * Debugger is active!
+2025-04-02 19:08:48,892 - INFO -  * Debugger PIN: 133-404-908
+2025-04-02 19:09:14,481 - INFO -  * Detected change in 'C:\\Python313\\Lib\\threading.py', reloading
+2025-04-02 19:09:16,649 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-02 19:09:31,466 - INFO - Use pytorch device_name: cpu
+2025-04-02 19:09:31,466 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-02 19:09:34,770 - INFO - Loaded 4400 job listings from CSV.
+2025-04-02 19:09:34,770 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-02 19:09:35,153 - INFO - Loaded cached job embeddings.
+2025-04-02 19:09:35,166 - WARNING -  * Debugger is active!
+2025-04-02 19:09:35,173 - INFO -  * Debugger PIN: 133-404-908
+2025-04-03 07:42:58,081 - INFO - Use pytorch device_name: cpu
+2025-04-03 07:42:58,083 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 07:46:30,521 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 07:46:30,521 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-03 07:46:30,601 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-03 07:46:30,602 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-03 07:46:30,613 - INFO -  * Restarting with stat
+2025-04-03 07:46:30,864 - INFO - Loaded cached job embeddings.
+2025-04-03 07:46:44,637 - INFO - Use pytorch device_name: cpu
+2025-04-03 07:46:44,637 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 07:47:28,016 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 07:47:28,018 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-03 07:47:28,079 - WARNING -  * Debugger is active!
+2025-04-03 07:47:28,093 - INFO -  * Debugger PIN: 137-857-803
+2025-04-03 07:47:28,373 - INFO - Loaded cached job embeddings.
+2025-04-03 07:47:28,544 - INFO - 127.0.0.1 - - [03/Apr/2025 07:47:28] "GET / HTTP/1.1" 200 -
+2025-04-03 07:47:28,625 - INFO - 127.0.0.1 - - [03/Apr/2025 07:47:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-03 09:02:03,128 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\app.py', reloading
+2025-04-03 09:02:03,954 - INFO -  * Restarting with stat
+2025-04-03 09:02:26,285 - INFO - Use pytorch device_name: cpu
+2025-04-03 09:02:26,286 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 09:02:29,366 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 09:02:29,367 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-03 09:02:29,445 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-03 09:02:29,445 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-03 09:02:29,454 - INFO -  * Restarting with stat
+2025-04-03 09:02:29,750 - INFO - Loaded cached job embeddings.
+2025-04-03 09:02:49,208 - INFO - Use pytorch device_name: cpu
+2025-04-03 09:02:49,209 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 09:02:53,091 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 09:02:53,092 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-03 09:02:53,135 - WARNING -  * Debugger is active!
+2025-04-03 09:02:53,150 - INFO -  * Debugger PIN: 137-857-803
+2025-04-03 09:02:54,160 - INFO - Loaded cached job embeddings.
+2025-04-03 09:02:54,352 - INFO - 127.0.0.1 - - [03/Apr/2025 09:02:54] "GET / HTTP/1.1" 200 -
+2025-04-03 09:02:54,560 - INFO - 127.0.0.1 - - [03/Apr/2025 09:02:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-03 09:03:22,515 - INFO - Received message from session default: data engineering jobs
+2025-04-03 09:03:23,049 - INFO - Processed message. Tokens: ['data', 'engineering', 'jobs'] | Entities: []
+2025-04-03 09:03:23,810 - INFO - Semantic search found 2058 matching jobs for query: data engineering jobs
+2025-04-03 09:03:23,811 - INFO - Updated session default history. Total messages: 2
+2025-04-03 09:03:23,811 - INFO - 127.0.0.1 - - [03/Apr/2025 09:03:23] "POST /chat HTTP/1.1" 200 -
+2025-04-03 09:03:39,265 - INFO - Received message from session default: details on Data Engineer - Artificial Intelligence/Machine Learning at Element Infomatics Pvt. Ltd
+2025-04-03 09:03:40,119 - INFO - Processed message. Tokens: ['details', 'on', 'Data', 'Engineer', '-', 'Artificial', 'Intelligence', '/', 'Machine', 'Learning', 'at', 'Element', 'Infomatics', 'Pvt.', 'Ltd'] | Entities: [('Element Infomatics Pvt. Ltd', 'ORG')]
+2025-04-03 09:03:40,119 - INFO - Updated session default history. Total messages: 4
+2025-04-03 09:03:40,120 - INFO - 127.0.0.1 - - [03/Apr/2025 09:03:40] "POST /chat HTTP/1.1" 200 -
+2025-04-03 09:03:51,477 - INFO - Received message from session default: i need more details on Data Engineer - Artificial Intelligence/Machine Learning at Element Infomatics Pvt. Ltd
+2025-04-03 09:03:52,421 - INFO - Processed message. Tokens: ['i', 'need', 'more', 'details', 'on', 'Data', 'Engineer', '-', 'Artificial', 'Intelligence', '/', 'Machine', 'Learning', 'at', 'Element', 'Infomatics', 'Pvt.', 'Ltd'] | Entities: [('Element Infomatics Pvt. Ltd', 'ORG')]
+2025-04-03 09:03:52,421 - INFO - Updated session default history. Total messages: 6
+2025-04-03 09:03:52,421 - INFO - 127.0.0.1 - - [03/Apr/2025 09:03:52] "POST /chat HTTP/1.1" 200 -
+2025-04-03 09:04:01,855 - INFO - Received message from session default: full stack salary
+2025-04-03 09:04:02,143 - INFO - Processed message. Tokens: ['full', 'stack', 'salary'] | Entities: []
+2025-04-03 09:04:03,023 - INFO - Semantic search found 85 matching jobs for query: full stack salary
+2025-04-03 09:04:03,024 - INFO - Updated session default history. Total messages: 8
+2025-04-03 09:04:03,024 - INFO - 127.0.0.1 - - [03/Apr/2025 09:04:03] "POST /chat HTTP/1.1" 200 -
+2025-04-03 09:04:06,615 - INFO - Received message from session default: 1
+2025-04-03 09:04:06,615 - INFO - Updated session default history. Total messages: 10
+2025-04-03 09:04:06,619 - INFO - 127.0.0.1 - - [03/Apr/2025 09:04:06] "POST /chat HTTP/1.1" 200 -
+2025-04-03 09:04:17,601 - INFO - Received message from session default: full stack description
+2025-04-03 09:04:17,848 - INFO - Processed message. Tokens: ['full', 'stack', 'description'] | Entities: []
+2025-04-03 09:04:17,848 - INFO - Updated session default history. Total messages: 12
+2025-04-03 09:04:17,849 - INFO - 127.0.0.1 - - [03/Apr/2025 09:04:17] "POST /chat HTTP/1.1" 200 -
+2025-04-03 09:04:33,295 - INFO - 127.0.0.1 - - [03/Apr/2025 09:04:33] "GET / HTTP/1.1" 200 -
+2025-04-03 09:22:30,364 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\app.py', reloading
+2025-04-03 09:22:31,376 - INFO -  * Restarting with stat
+2025-04-03 09:30:01,255 - INFO - Use pytorch device_name: cpu
+2025-04-03 09:30:01,256 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 09:30:04,827 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 09:30:04,828 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-03 09:30:04,886 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-03 09:30:04,886 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-03 09:30:04,893 - INFO -  * Restarting with stat
+2025-04-03 09:30:05,108 - INFO - Loaded cached job embeddings.
+2025-04-03 09:30:28,252 - INFO - Use pytorch device_name: cpu
+2025-04-03 09:30:28,252 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 09:30:32,218 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 09:30:32,218 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-03 09:30:32,273 - WARNING -  * Debugger is active!
+2025-04-03 09:30:32,299 - INFO -  * Debugger PIN: 137-857-803
+2025-04-03 09:30:33,367 - INFO - Loaded cached job embeddings.
+2025-04-03 09:30:33,632 - INFO - 127.0.0.1 - - [03/Apr/2025 09:30:33] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-03 09:30:33,644 - INFO - 127.0.0.1 - - [03/Apr/2025 09:30:33] "GET /welcome HTTP/1.1" 200 -
+2025-04-03 09:30:33,666 - INFO - 127.0.0.1 - - [03/Apr/2025 09:30:33] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-04-03 09:30:40,082 - INFO - 127.0.0.1 - - [03/Apr/2025 09:30:40] "[32mGET /profile HTTP/1.1[0m" 302 -
+2025-04-03 09:30:40,143 - INFO - 127.0.0.1 - - [03/Apr/2025 09:30:40] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2025-04-03 09:30:40,384 - INFO - 127.0.0.1 - - [03/Apr/2025 09:30:40] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-03 09:30:40,390 - INFO - 127.0.0.1 - - [03/Apr/2025 09:30:40] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-03 09:30:40,468 - INFO - 127.0.0.1 - - [03/Apr/2025 09:30:40] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=Sc3YKA5BoY9rzbNjaoic HTTP/1.1" 200 -
+2025-04-03 09:30:40,482 - INFO - 127.0.0.1 - - [03/Apr/2025 09:30:40] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-03 09:30:46,021 - INFO - 127.0.0.1 - - [03/Apr/2025 09:30:46] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-03 09:30:46,027 - INFO - 127.0.0.1 - - [03/Apr/2025 09:30:46] "GET /welcome HTTP/1.1" 200 -
+2025-04-03 09:30:46,055 - INFO - 127.0.0.1 - - [03/Apr/2025 09:30:46] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-04-03 09:30:47,421 - INFO - 127.0.0.1 - - [03/Apr/2025 09:30:47] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-03 09:30:47,430 - INFO - 127.0.0.1 - - [03/Apr/2025 09:30:47] "GET /welcome HTTP/1.1" 200 -
+2025-04-03 09:30:47,454 - INFO - 127.0.0.1 - - [03/Apr/2025 09:30:47] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-04-03 09:30:48,095 - INFO - 127.0.0.1 - - [03/Apr/2025 09:30:48] "GET /faq HTTP/1.1" 200 -
+2025-04-03 09:30:48,122 - INFO - 127.0.0.1 - - [03/Apr/2025 09:30:48] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-04-03 09:30:55,048 - INFO - 127.0.0.1 - - [03/Apr/2025 09:30:55] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-03 09:30:55,055 - INFO - 127.0.0.1 - - [03/Apr/2025 09:30:55] "GET /welcome HTTP/1.1" 200 -
+2025-04-03 09:30:55,077 - INFO - 127.0.0.1 - - [03/Apr/2025 09:30:55] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-04-03 09:30:57,502 - INFO - 127.0.0.1 - - [03/Apr/2025 09:30:57] "[32mGET /profile HTTP/1.1[0m" 302 -
+2025-04-03 09:30:57,534 - INFO - 127.0.0.1 - - [03/Apr/2025 09:30:57] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2025-04-03 09:30:57,576 - INFO - 127.0.0.1 - - [03/Apr/2025 09:30:57] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-03 09:30:57,580 - INFO - 127.0.0.1 - - [03/Apr/2025 09:30:57] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-03 09:30:57,612 - INFO - 127.0.0.1 - - [03/Apr/2025 09:30:57] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=Sc3YKA5BoY9rzbNjaoic HTTP/1.1[0m" 304 -
+2025-04-03 09:37:44,923 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\app.py', reloading
+2025-04-03 09:37:46,574 - INFO -  * Restarting with stat
+2025-04-03 09:38:07,969 - INFO - Use pytorch device_name: cpu
+2025-04-03 09:38:07,969 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 09:38:12,199 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 09:38:12,199 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-03 09:38:12,262 - WARNING -  * Debugger is active!
+2025-04-03 09:38:12,289 - INFO -  * Debugger PIN: 137-857-803
+2025-04-03 09:38:13,535 - INFO - Loaded cached job embeddings.
+2025-04-03 10:02:58,184 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\app.py', reloading
+2025-04-03 10:02:59,204 - INFO -  * Restarting with stat
+2025-04-03 10:03:39,083 - INFO - Use pytorch device_name: cpu
+2025-04-03 10:03:39,083 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 10:03:42,402 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 10:03:42,402 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-03 10:03:42,454 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-03 10:03:42,454 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-03 10:03:42,458 - INFO -  * Restarting with stat
+2025-04-03 10:03:42,686 - INFO - Loaded cached job embeddings.
+2025-04-03 10:03:56,539 - INFO - Use pytorch device_name: cpu
+2025-04-03 10:03:56,539 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 10:04:00,615 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 10:04:00,616 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-03 10:04:00,637 - WARNING -  * Debugger is active!
+2025-04-03 10:04:00,643 - INFO -  * Debugger PIN: 137-857-803
+2025-04-03 10:04:00,904 - INFO - Loaded cached job embeddings.
+2025-04-03 10:04:01,057 - INFO - 127.0.0.1 - - [03/Apr/2025 10:04:01] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-03 10:04:01,100 - INFO - 127.0.0.1 - - [03/Apr/2025 10:04:01] "GET /welcome HTTP/1.1" 200 -
+2025-04-03 10:04:01,128 - INFO - 127.0.0.1 - - [03/Apr/2025 10:04:01] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-04-03 10:04:06,196 - INFO - 127.0.0.1 - - [03/Apr/2025 10:04:06] "GET /login HTTP/1.1" 200 -
+2025-04-03 10:04:10,786 - INFO - 127.0.0.1 - - [03/Apr/2025 10:04:10] "GET /signup HTTP/1.1" 200 -
+2025-04-03 10:04:20,806 - ERROR - Error during signup: SyncGoTrueClient.sign_up() got an unexpected keyword argument 'email'
+2025-04-03 10:04:20,807 - INFO - 127.0.0.1 - - [03/Apr/2025 10:04:20] "POST /signup HTTP/1.1" 200 -
+2025-04-03 10:04:31,825 - INFO - 127.0.0.1 - - [03/Apr/2025 10:04:31] "GET /signup HTTP/1.1" 200 -
+2025-04-03 10:04:47,952 - ERROR - Error during login: 'SyncSupabaseAuthClient' object has no attribute 'sign_in'
+2025-04-03 10:04:47,953 - INFO - 127.0.0.1 - - [03/Apr/2025 10:04:47] "POST /login HTTP/1.1" 200 -
+2025-04-03 10:04:50,360 - INFO - 127.0.0.1 - - [03/Apr/2025 10:04:50] "GET /signup HTTP/1.1" 200 -
+2025-04-03 10:04:57,241 - ERROR - Error during signup: SyncGoTrueClient.sign_up() got an unexpected keyword argument 'email'
+2025-04-03 10:04:57,241 - INFO - 127.0.0.1 - - [03/Apr/2025 10:04:57] "POST /signup HTTP/1.1" 200 -
+2025-04-03 10:05:40,631 - ERROR - Error during signup: SyncGoTrueClient.sign_up() got an unexpected keyword argument 'email'
+2025-04-03 10:05:40,632 - INFO - 127.0.0.1 - - [03/Apr/2025 10:05:40] "POST /signup HTTP/1.1" 200 -
+2025-04-03 10:07:07,716 - INFO - Use pytorch device_name: cpu
+2025-04-03 10:07:07,717 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 10:07:10,981 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 10:07:10,981 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-03 10:07:11,045 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-03 10:07:11,045 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-03 10:07:11,051 - INFO -  * Restarting with stat
+2025-04-03 10:07:11,268 - INFO - Loaded cached job embeddings.
+2025-04-03 10:07:29,778 - INFO - Use pytorch device_name: cpu
+2025-04-03 10:07:29,779 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 10:07:33,455 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 10:07:33,455 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-03 10:07:33,484 - WARNING -  * Debugger is active!
+2025-04-03 10:07:33,493 - INFO -  * Debugger PIN: 137-857-803
+2025-04-03 10:07:33,778 - INFO - Loaded cached job embeddings.
+2025-04-03 10:07:33,919 - INFO - 127.0.0.1 - - [03/Apr/2025 10:07:33] "GET /login HTTP/1.1" 200 -
+2025-04-03 10:07:33,920 - INFO - 127.0.0.1 - - [03/Apr/2025 10:07:33] "GET /login HTTP/1.1" 200 -
+2025-04-03 10:07:40,288 - INFO - 127.0.0.1 - - [03/Apr/2025 10:07:40] "GET /login HTTP/1.1" 200 -
+2025-04-03 10:07:41,167 - INFO - 127.0.0.1 - - [03/Apr/2025 10:07:41] "GET /login HTTP/1.1" 200 -
+2025-04-03 10:07:41,836 - INFO - 127.0.0.1 - - [03/Apr/2025 10:07:41] "GET /login HTTP/1.1" 200 -
+2025-04-03 10:07:44,693 - INFO - 127.0.0.1 - - [03/Apr/2025 10:07:44] "GET /signup HTTP/1.1" 200 -
+2025-04-03 10:07:47,582 - ERROR - Error during signup: SyncGoTrueClient.sign_up() got an unexpected keyword argument 'email'
+2025-04-03 10:07:47,583 - INFO - 127.0.0.1 - - [03/Apr/2025 10:07:47] "POST /signup HTTP/1.1" 200 -
+2025-04-03 10:11:10,166 - INFO - Use pytorch device_name: cpu
+2025-04-03 10:11:10,166 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 10:11:13,439 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 10:11:13,440 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-03 10:11:13,479 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-03 10:11:13,480 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-03 10:11:13,484 - INFO -  * Restarting with stat
+2025-04-03 10:11:13,681 - INFO - Loaded cached job embeddings.
+2025-04-03 10:11:33,398 - INFO - Use pytorch device_name: cpu
+2025-04-03 10:11:33,398 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 10:11:36,809 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 10:11:36,809 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-03 10:11:36,831 - WARNING -  * Debugger is active!
+2025-04-03 10:11:36,841 - INFO -  * Debugger PIN: 137-857-803
+2025-04-03 10:11:37,102 - INFO - Loaded cached job embeddings.
+2025-04-03 10:11:37,243 - INFO - 127.0.0.1 - - [03/Apr/2025 10:11:37] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-03 10:11:37,284 - INFO - 127.0.0.1 - - [03/Apr/2025 10:11:37] "GET /login HTTP/1.1" 200 -
+2025-04-03 10:11:41,212 - INFO - 127.0.0.1 - - [03/Apr/2025 10:11:41] "GET /signup HTTP/1.1" 200 -
+2025-04-03 10:12:12,549 - ERROR - Error during signup: SyncGoTrueClient.sign_up() got an unexpected keyword argument 'email'
+2025-04-03 10:12:12,550 - INFO - 127.0.0.1 - - [03/Apr/2025 10:12:12] "POST /signup HTTP/1.1" 200 -
+2025-04-03 10:12:37,141 - ERROR - Error during signup: SyncGoTrueClient.sign_up() got an unexpected keyword argument 'email'
+2025-04-03 10:12:37,141 - INFO - 127.0.0.1 - - [03/Apr/2025 10:12:37] "POST /signup HTTP/1.1" 200 -
+2025-04-03 10:13:06,428 - ERROR - Error during signup: SyncGoTrueClient.sign_up() got an unexpected keyword argument 'email'
+2025-04-03 10:13:06,429 - INFO - 127.0.0.1 - - [03/Apr/2025 10:13:06] "POST /signup HTTP/1.1" 200 -
+2025-04-03 10:17:59,403 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\app.py', reloading
+2025-04-03 10:18:00,515 - INFO -  * Restarting with stat
+2025-04-03 10:18:23,155 - INFO - Use pytorch device_name: cpu
+2025-04-03 10:18:23,155 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 10:18:27,263 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 10:18:27,264 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-03 10:18:27,324 - WARNING -  * Debugger is active!
+2025-04-03 10:18:27,350 - INFO -  * Debugger PIN: 137-857-803
+2025-04-03 10:18:28,142 - INFO - Loaded cached job embeddings.
+2025-04-03 10:20:58,461 - INFO - Use pytorch device_name: cpu
+2025-04-03 10:20:58,461 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 10:21:01,598 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 10:21:01,598 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-03 10:21:01,646 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-03 10:21:01,647 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-03 10:21:01,652 - INFO -  * Restarting with stat
+2025-04-03 10:21:01,855 - INFO - Loaded cached job embeddings.
+2025-04-03 10:21:16,076 - INFO - Use pytorch device_name: cpu
+2025-04-03 10:21:16,076 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 10:21:19,327 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 10:21:19,327 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-03 10:21:19,364 - WARNING -  * Debugger is active!
+2025-04-03 10:21:19,378 - INFO -  * Debugger PIN: 137-857-803
+2025-04-03 10:21:19,647 - INFO - Loaded cached job embeddings.
+2025-04-03 10:21:19,814 - INFO - 127.0.0.1 - - [03/Apr/2025 10:21:19] "GET /login HTTP/1.1" 200 -
+2025-04-03 10:21:27,139 - INFO - 127.0.0.1 - - [03/Apr/2025 10:21:27] "GET /signup HTTP/1.1" 200 -
+2025-04-03 10:21:37,133 - ERROR - Error during signup: SyncGoTrueClient.sign_up() got an unexpected keyword argument 'email'
+2025-04-03 10:21:37,134 - INFO - 127.0.0.1 - - [03/Apr/2025 10:21:37] "POST /signup HTTP/1.1" 200 -
+2025-04-03 10:23:50,915 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\app.py', reloading
+2025-04-03 10:24:30,667 - INFO - Use pytorch device_name: cpu
+2025-04-03 10:24:30,668 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 10:24:34,221 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 10:24:34,222 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-03 10:24:34,259 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-03 10:24:34,259 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-03 10:24:34,265 - INFO -  * Restarting with stat
+2025-04-03 10:24:34,460 - INFO - Loaded cached job embeddings.
+2025-04-03 10:24:47,950 - INFO - Use pytorch device_name: cpu
+2025-04-03 10:24:47,951 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 10:24:51,477 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 10:24:51,478 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-03 10:24:51,508 - WARNING -  * Debugger is active!
+2025-04-03 10:24:51,514 - INFO -  * Debugger PIN: 137-857-803
+2025-04-03 10:24:51,789 - INFO - Loaded cached job embeddings.
+2025-04-03 10:24:51,940 - INFO - 127.0.0.1 - - [03/Apr/2025 10:24:51] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-03 10:24:51,947 - INFO - 127.0.0.1 - - [03/Apr/2025 10:24:51] "GET /login HTTP/1.1" 200 -
+2025-04-03 10:24:55,930 - INFO - 127.0.0.1 - - [03/Apr/2025 10:24:55] "GET /signup HTTP/1.1" 200 -
+2025-04-03 10:25:08,197 - ERROR - Error during signup: SyncGoTrueClient.sign_up() takes 2 positional arguments but 3 were given
+2025-04-03 10:25:08,198 - INFO - 127.0.0.1 - - [03/Apr/2025 10:25:08] "POST /signup HTTP/1.1" 200 -
+2025-04-03 10:28:18,745 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\app.py', reloading
+2025-04-03 10:28:19,895 - INFO -  * Restarting with stat
+2025-04-03 10:28:34,228 - INFO - Use pytorch device_name: cpu
+2025-04-03 10:28:34,228 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 10:28:37,547 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 10:28:37,548 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-03 10:28:37,572 - WARNING -  * Debugger is active!
+2025-04-03 10:28:37,578 - INFO -  * Debugger PIN: 137-857-803
+2025-04-03 10:28:37,828 - INFO - Loaded cached job embeddings.
+2025-04-03 10:29:26,962 - INFO - Use pytorch device_name: cpu
+2025-04-03 10:29:26,962 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 10:29:30,400 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 10:29:30,400 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-03 10:29:30,444 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-03 10:29:30,444 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-03 10:29:30,450 - INFO -  * Restarting with stat
+2025-04-03 10:29:30,656 - INFO - Loaded cached job embeddings.
+2025-04-03 10:29:52,886 - INFO - Use pytorch device_name: cpu
+2025-04-03 10:29:52,887 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 10:29:56,446 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 10:29:56,447 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-03 10:29:56,505 - WARNING -  * Debugger is active!
+2025-04-03 10:29:56,534 - INFO -  * Debugger PIN: 137-857-803
+2025-04-03 10:29:57,581 - INFO - Loaded cached job embeddings.
+2025-04-03 10:29:57,827 - INFO - 127.0.0.1 - - [03/Apr/2025 10:29:57] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-03 10:29:57,844 - INFO - 127.0.0.1 - - [03/Apr/2025 10:29:57] "GET /login HTTP/1.1" 200 -
+2025-04-03 10:30:02,393 - INFO - 127.0.0.1 - - [03/Apr/2025 10:30:02] "GET /signup HTTP/1.1" 200 -
+2025-04-03 10:30:21,620 - INFO - HTTP Request: POST https://cgwsnlrpvdandljurvpx.supabase.co/auth/v1/signup "HTTP/2 200 OK"
+2025-04-03 10:30:21,622 - INFO - Supabase signup response: user=User(id='d8d63774-436b-457b-b53f-4478058c6b9d', app_metadata={'provider': 'email', 'providers': ['email']}, user_metadata={'email': 'aleenaharoldpeter120@gmail.com', 'email_verified': False, 'phone_verified': False, 'sub': 'd8d63774-436b-457b-b53f-4478058c6b9d'}, aud='authenticated', confirmation_sent_at=datetime.datetime(2025, 4, 3, 5, 0, 17, 789130, tzinfo=TzInfo(UTC)), recovery_sent_at=None, email_change_sent_at=None, new_email=None, new_phone=None, invited_at=None, action_link=None, email='aleenaharoldpeter120@gmail.com', phone='', created_at=datetime.datetime(2025, 4, 3, 5, 0, 17, 764774, tzinfo=TzInfo(UTC)), confirmed_at=None, email_confirmed_at=None, phone_confirmed_at=None, last_sign_in_at=None, role='authenticated', updated_at=datetime.datetime(2025, 4, 3, 5, 0, 20, 694948, tzinfo=TzInfo(UTC)), identities=[UserIdentity(id='d8d63774-436b-457b-b53f-4478058c6b9d', identity_id='71549abe-2b9a-40e5-953b-949a863f6e4e', user_id='d8d63774-436b-457b-b53f-4478058c6b9d', identity_data={'email': 'aleenaharoldpeter120@gmail.com', 'email_verified': False, 'phone_verified': False, 'sub': 'd8d63774-436b-457b-b53f-4478058c6b9d'}, provider='email', created_at=datetime.datetime(2025, 4, 3, 5, 0, 17, 783886, tzinfo=TzInfo(UTC)), last_sign_in_at=datetime.datetime(2025, 4, 3, 5, 0, 17, 783832, tzinfo=TzInfo(UTC)), updated_at=datetime.datetime(2025, 4, 3, 5, 0, 17, 783886, tzinfo=TzInfo(UTC)))], is_anonymous=False, factors=None) session=None
+2025-04-03 10:30:21,623 - ERROR - Error during signup: 'AuthResponse' object has no attribute 'get'
+2025-04-03 10:30:21,625 - INFO - 127.0.0.1 - - [03/Apr/2025 10:30:21] "POST /signup HTTP/1.1" 200 -
+2025-04-03 10:32:56,239 - INFO - Use pytorch device_name: cpu
+2025-04-03 10:32:56,240 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 10:32:59,950 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 10:32:59,950 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-03 10:33:00,050 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-03 10:33:00,051 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-03 10:33:00,064 - INFO -  * Restarting with stat
+2025-04-03 10:33:00,470 - INFO - Loaded cached job embeddings.
+2025-04-03 10:33:17,519 - INFO - Use pytorch device_name: cpu
+2025-04-03 10:33:17,520 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 10:33:21,690 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 10:33:21,691 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-03 10:33:21,720 - WARNING -  * Debugger is active!
+2025-04-03 10:33:21,729 - INFO -  * Debugger PIN: 137-857-803
+2025-04-03 10:33:21,987 - INFO - Loaded cached job embeddings.
+2025-04-03 10:33:22,128 - INFO - 127.0.0.1 - - [03/Apr/2025 10:33:22] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-03 10:33:22,137 - INFO - 127.0.0.1 - - [03/Apr/2025 10:33:22] "GET /login HTTP/1.1" 200 -
+2025-04-03 10:33:26,021 - INFO - 127.0.0.1 - - [03/Apr/2025 10:33:26] "GET /signup HTTP/1.1" 200 -
+2025-04-03 10:33:41,004 - INFO - HTTP Request: POST https://cgwsnlrpvdandljurvpx.supabase.co/auth/v1/signup "HTTP/2 200 OK"
+2025-04-03 10:33:41,005 - INFO - Supabase signup response: user=User(id='d8d63774-436b-457b-b53f-4478058c6b9d', app_metadata={'provider': 'email', 'providers': ['email']}, user_metadata={'email': 'aleenaharoldpeter120@gmail.com', 'email_verified': False, 'phone_verified': False, 'sub': 'd8d63774-436b-457b-b53f-4478058c6b9d'}, aud='authenticated', confirmation_sent_at=datetime.datetime(2025, 4, 3, 5, 3, 37, 294120, tzinfo=TzInfo(UTC)), recovery_sent_at=None, email_change_sent_at=None, new_email=None, new_phone=None, invited_at=None, action_link=None, email='aleenaharoldpeter120@gmail.com', phone='', created_at=datetime.datetime(2025, 4, 3, 5, 0, 17, 764774, tzinfo=TzInfo(UTC)), confirmed_at=None, email_confirmed_at=None, phone_confirmed_at=None, last_sign_in_at=None, role='authenticated', updated_at=datetime.datetime(2025, 4, 3, 5, 3, 40, 72756, tzinfo=TzInfo(UTC)), identities=[UserIdentity(id='d8d63774-436b-457b-b53f-4478058c6b9d', identity_id='71549abe-2b9a-40e5-953b-949a863f6e4e', user_id='d8d63774-436b-457b-b53f-4478058c6b9d', identity_data={'email': 'aleenaharoldpeter120@gmail.com', 'email_verified': False, 'phone_verified': False, 'sub': 'd8d63774-436b-457b-b53f-4478058c6b9d'}, provider='email', created_at=datetime.datetime(2025, 4, 3, 5, 0, 17, 783886, tzinfo=TzInfo(UTC)), last_sign_in_at=datetime.datetime(2025, 4, 3, 5, 0, 17, 783832, tzinfo=TzInfo(UTC)), updated_at=datetime.datetime(2025, 4, 3, 5, 0, 17, 783886, tzinfo=TzInfo(UTC)))], is_anonymous=False, factors=None) session=None
+2025-04-03 10:33:41,010 - INFO - 127.0.0.1 - - [03/Apr/2025 10:33:41] "[32mPOST /signup HTTP/1.1[0m" 302 -
+2025-04-03 10:33:41,021 - INFO - 127.0.0.1 - - [03/Apr/2025 10:33:41] "GET / HTTP/1.1" 200 -
+2025-04-03 10:33:47,822 - INFO - 127.0.0.1 - - [03/Apr/2025 10:33:47] "[33mGET /faq HTTP/1.1[0m" 404 -
+2025-04-03 10:33:51,469 - INFO - 127.0.0.1 - - [03/Apr/2025 10:33:51] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-03 10:33:51,476 - INFO - 127.0.0.1 - - [03/Apr/2025 10:33:51] "GET /login HTTP/1.1" 200 -
+2025-04-03 10:34:04,234 - INFO - HTTP Request: POST https://cgwsnlrpvdandljurvpx.supabase.co/auth/v1/token?grant_type=password "HTTP/2 400 Bad Request"
+2025-04-03 10:34:04,235 - ERROR - Error during login: Email not confirmed
+2025-04-03 10:34:04,236 - INFO - 127.0.0.1 - - [03/Apr/2025 10:34:04] "POST /login HTTP/1.1" 200 -
+2025-04-03 10:36:11,849 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\app.py', reloading
+2025-04-03 10:36:12,951 - INFO -  * Restarting with stat
+2025-04-03 10:36:34,682 - INFO - Use pytorch device_name: cpu
+2025-04-03 10:36:34,682 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 10:36:38,895 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 10:36:38,896 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-03 10:36:38,967 - WARNING -  * Debugger is active!
+2025-04-03 10:36:38,992 - INFO -  * Debugger PIN: 137-857-803
+2025-04-03 10:36:40,063 - INFO - Loaded cached job embeddings.
+2025-04-03 10:38:26,534 - INFO - Use pytorch device_name: cpu
+2025-04-03 10:38:26,534 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 10:38:29,636 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 10:38:29,636 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-03 10:38:29,689 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-03 10:38:29,689 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-03 10:38:29,693 - INFO -  * Restarting with stat
+2025-04-03 10:38:29,894 - INFO - Loaded cached job embeddings.
+2025-04-03 10:38:44,544 - INFO - Use pytorch device_name: cpu
+2025-04-03 10:38:44,545 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 10:38:47,781 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 10:38:47,781 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-03 10:38:47,812 - WARNING -  * Debugger is active!
+2025-04-03 10:38:47,823 - INFO -  * Debugger PIN: 137-857-803
+2025-04-03 10:38:48,079 - INFO - Loaded cached job embeddings.
+2025-04-03 10:38:48,220 - INFO - 127.0.0.1 - - [03/Apr/2025 10:38:48] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-03 10:38:48,227 - INFO - 127.0.0.1 - - [03/Apr/2025 10:38:48] "GET /login HTTP/1.1" 200 -
+2025-04-03 10:39:00,717 - INFO - HTTP Request: POST https://cgwsnlrpvdandljurvpx.supabase.co/auth/v1/token?grant_type=password "HTTP/2 400 Bad Request"
+2025-04-03 10:39:00,718 - ERROR - Error during login: Email not confirmed
+2025-04-03 10:39:00,720 - INFO - 127.0.0.1 - - [03/Apr/2025 10:39:00] "POST /login HTTP/1.1" 200 -
+2025-04-03 10:39:25,640 - INFO - 127.0.0.1 - - [03/Apr/2025 10:39:25] "GET /signup HTTP/1.1" 200 -
+2025-04-03 10:39:36,966 - INFO - HTTP Request: POST https://cgwsnlrpvdandljurvpx.supabase.co/auth/v1/signup "HTTP/2 200 OK"
+2025-04-03 10:39:36,967 - INFO - Supabase signup response: user=User(id='d8d63774-436b-457b-b53f-4478058c6b9d', app_metadata={'provider': 'email', 'providers': ['email']}, user_metadata={'email': 'aleenaharoldpeter120@gmail.com', 'email_verified': False, 'phone_verified': False, 'sub': 'd8d63774-436b-457b-b53f-4478058c6b9d'}, aud='authenticated', confirmation_sent_at=datetime.datetime(2025, 4, 3, 5, 9, 33, 275233, tzinfo=TzInfo(UTC)), recovery_sent_at=None, email_change_sent_at=None, new_email=None, new_phone=None, invited_at=None, action_link=None, email='aleenaharoldpeter120@gmail.com', phone='', created_at=datetime.datetime(2025, 4, 3, 5, 0, 17, 764774, tzinfo=TzInfo(UTC)), confirmed_at=None, email_confirmed_at=None, phone_confirmed_at=None, last_sign_in_at=None, role='authenticated', updated_at=datetime.datetime(2025, 4, 3, 5, 9, 36, 34298, tzinfo=TzInfo(UTC)), identities=[UserIdentity(id='d8d63774-436b-457b-b53f-4478058c6b9d', identity_id='71549abe-2b9a-40e5-953b-949a863f6e4e', user_id='d8d63774-436b-457b-b53f-4478058c6b9d', identity_data={'email': 'aleenaharoldpeter120@gmail.com', 'email_verified': False, 'phone_verified': False, 'sub': 'd8d63774-436b-457b-b53f-4478058c6b9d'}, provider='email', created_at=datetime.datetime(2025, 4, 3, 5, 0, 17, 783886, tzinfo=TzInfo(UTC)), last_sign_in_at=datetime.datetime(2025, 4, 3, 5, 0, 17, 783832, tzinfo=TzInfo(UTC)), updated_at=datetime.datetime(2025, 4, 3, 5, 0, 17, 783886, tzinfo=TzInfo(UTC)))], is_anonymous=False, factors=None) session=None
+2025-04-03 10:39:36,969 - INFO - 127.0.0.1 - - [03/Apr/2025 10:39:36] "[32mPOST /signup HTTP/1.1[0m" 302 -
+2025-04-03 10:39:36,983 - INFO - 127.0.0.1 - - [03/Apr/2025 10:39:36] "GET / HTTP/1.1" 200 -
+2025-04-03 10:39:44,089 - INFO - 127.0.0.1 - - [03/Apr/2025 10:39:44] "GET /faq HTTP/1.1" 200 -
+2025-04-03 10:39:44,125 - INFO - 127.0.0.1 - - [03/Apr/2025 10:39:44] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-04-03 10:39:48,691 - INFO - 127.0.0.1 - - [03/Apr/2025 10:39:48] "GET / HTTP/1.1" 200 -
+2025-04-03 10:39:50,028 - INFO - 127.0.0.1 - - [03/Apr/2025 10:39:50] "[33mGET /profile HTTP/1.1[0m" 404 -
+2025-04-03 10:40:02,446 - INFO - Received message from session default: Data ENgineering jobs
+2025-04-03 10:40:02,550 - INFO - Processed message. Tokens: ['Data', 'ENgineering', 'jobs'] | Entities: [('Data ENgineering', 'ORG')]
+2025-04-03 10:40:02,747 - INFO - Semantic search found 2058 matching jobs for query: Data ENgineering jobs
+2025-04-03 10:40:02,747 - INFO - Updated session default history. Total messages: 2
+2025-04-03 10:40:02,748 - INFO - 127.0.0.1 - - [03/Apr/2025 10:40:02] "POST /chat HTTP/1.1" 200 -
+2025-04-03 10:40:13,145 - INFO - Received message from session default: Data Engineer - Artificial Intelligence/Machine Learning at Element Infomatics Pvt. Ltd. detials
+2025-04-03 10:40:13,395 - INFO - Processed message. Tokens: ['Data', 'Engineer', '-', 'Artificial', 'Intelligence', '/', 'Machine', 'Learning', 'at', 'Element', 'Infomatics', 'Pvt.', 'Ltd.', 'detials'] | Entities: [('Element Infomatics Pvt. Ltd.', 'ORG')]
+2025-04-03 10:40:13,395 - INFO - Updated session default history. Total messages: 4
+2025-04-03 10:40:13,395 - INFO - 127.0.0.1 - - [03/Apr/2025 10:40:13] "POST /chat HTTP/1.1" 200 -
+2025-04-03 10:40:29,844 - INFO - Received message from session default: i want full stack jobs in bangalore
+2025-04-03 10:40:29,963 - INFO - Processed message. Tokens: ['i', 'want', 'full', 'stack', 'jobs', 'in', 'bangalore'] | Entities: [('bangalore', 'GPE')]
+2025-04-03 10:40:30,142 - INFO - Semantic search found 1553 matching jobs for query: i want full stack jobs in bangalore
+2025-04-03 10:40:30,143 - INFO - Updated session default history. Total messages: 6
+2025-04-03 10:40:30,143 - INFO - 127.0.0.1 - - [03/Apr/2025 10:40:30] "POST /chat HTTP/1.1" 200 -
+2025-04-03 10:40:55,071 - INFO - 127.0.0.1 - - [03/Apr/2025 10:40:55] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-03 10:40:55,075 - INFO - 127.0.0.1 - - [03/Apr/2025 10:40:55] "GET /login HTTP/1.1" 200 -
+2025-04-03 10:41:03,975 - INFO - HTTP Request: POST https://cgwsnlrpvdandljurvpx.supabase.co/auth/v1/token?grant_type=password "HTTP/2 400 Bad Request"
+2025-04-03 10:41:03,976 - ERROR - Error during login: Email not confirmed
+2025-04-03 10:41:03,977 - INFO - 127.0.0.1 - - [03/Apr/2025 10:41:03] "POST /login HTTP/1.1" 200 -
+2025-04-03 10:47:06,225 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\app.py', reloading
+2025-04-03 10:47:07,377 - INFO -  * Restarting with stat
+2025-04-03 10:47:23,643 - INFO - Use pytorch device_name: cpu
+2025-04-03 10:47:23,643 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 10:47:26,888 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 10:47:26,888 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-03 10:47:26,938 - WARNING -  * Debugger is active!
+2025-04-03 10:47:26,948 - INFO -  * Debugger PIN: 137-857-803
+2025-04-03 10:47:27,331 - INFO - Loaded cached job embeddings.
+2025-04-03 10:48:20,501 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\app.py', reloading
+2025-04-03 10:48:21,602 - INFO -  * Restarting with stat
+2025-04-03 10:49:13,879 - INFO - Use pytorch device_name: cpu
+2025-04-03 10:49:13,880 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 10:49:17,123 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 10:49:17,124 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-03 10:49:17,183 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-03 10:49:17,183 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-03 10:49:17,192 - INFO -  * Restarting with stat
+2025-04-03 10:49:17,400 - INFO - Loaded cached job embeddings.
+2025-04-03 10:49:38,658 - INFO - Use pytorch device_name: cpu
+2025-04-03 10:49:38,659 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 10:49:42,261 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 10:49:42,262 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-03 10:49:42,326 - WARNING -  * Debugger is active!
+2025-04-03 10:49:42,357 - INFO -  * Debugger PIN: 137-857-803
+2025-04-03 10:49:43,319 - INFO - Loaded cached job embeddings.
+2025-04-03 10:49:43,492 - INFO - 127.0.0.1 - - [03/Apr/2025 10:49:43] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-03 10:49:43,495 - INFO - 127.0.0.1 - - [03/Apr/2025 10:49:43] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-03 10:49:43,499 - INFO - 127.0.0.1 - - [03/Apr/2025 10:49:43] "[31m[1mGET /login HTTP/1.1[0m" 405 -
+2025-04-03 10:49:49,720 - INFO - 127.0.0.1 - - [03/Apr/2025 10:49:49] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-03 10:49:49,728 - INFO - 127.0.0.1 - - [03/Apr/2025 10:49:49] "[31m[1mGET /login HTTP/1.1[0m" 405 -
+2025-04-03 10:49:50,332 - INFO - 127.0.0.1 - - [03/Apr/2025 10:49:50] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-03 10:49:50,339 - INFO - 127.0.0.1 - - [03/Apr/2025 10:49:50] "[31m[1mGET /login HTTP/1.1[0m" 405 -
+2025-04-03 10:52:31,391 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\app.py', reloading
+2025-04-03 10:52:32,580 - INFO -  * Restarting with stat
+2025-04-03 10:52:47,421 - INFO - Use pytorch device_name: cpu
+2025-04-03 10:52:47,421 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 10:53:30,467 - INFO - Use pytorch device_name: cpu
+2025-04-03 10:53:30,467 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 10:53:34,734 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 10:53:34,734 - ERROR - Error reading JSON: [Errno 2] No such file or directory: 'session_details.json'
+2025-04-03 10:53:34,790 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-03 10:53:34,791 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-03 10:53:34,798 - INFO -  * Restarting with stat
+2025-04-03 10:53:35,029 - INFO - Loaded cached job embeddings.
+2025-04-03 10:53:47,946 - INFO - Use pytorch device_name: cpu
+2025-04-03 10:53:47,946 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 10:53:51,125 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 10:53:51,138 - INFO - Loaded session details from JSON.
+2025-04-03 10:53:51,188 - WARNING -  * Debugger is active!
+2025-04-03 10:53:51,198 - INFO -  * Debugger PIN: 137-857-803
+2025-04-03 10:53:51,451 - INFO - Loaded cached job embeddings.
+2025-04-03 10:54:04,657 - INFO - 127.0.0.1 - - [03/Apr/2025 10:54:04] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-03 10:54:04,678 - INFO - 127.0.0.1 - - [03/Apr/2025 10:54:04] "GET /login HTTP/1.1" 200 -
+2025-04-03 10:55:20,407 - INFO - 127.0.0.1 - - [03/Apr/2025 10:55:20] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2025-04-03 10:55:20,508 - INFO - 127.0.0.1 - - [03/Apr/2025 10:55:20] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-03 10:55:20,509 - INFO - 127.0.0.1 - - [03/Apr/2025 10:55:20] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-03 10:55:20,559 - INFO - 127.0.0.1 - - [03/Apr/2025 10:55:20] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=qV2Mp3NPrYwovJtiHnLb HTTP/1.1" 200 -
+2025-04-03 10:55:20,575 - INFO - 127.0.0.1 - - [03/Apr/2025 10:55:20] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-03 10:56:46,667 - INFO - Use pytorch device_name: cpu
+2025-04-03 10:56:46,667 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 10:56:50,196 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 10:56:50,197 - INFO - Loaded session details from JSON.
+2025-04-03 10:56:50,300 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-03 10:56:50,300 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-03 10:56:50,309 - INFO -  * Restarting with stat
+2025-04-03 10:56:50,997 - INFO - Loaded cached job embeddings.
+2025-04-03 10:57:09,289 - INFO - Use pytorch device_name: cpu
+2025-04-03 10:57:09,290 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 10:57:13,265 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 10:57:13,266 - INFO - Loaded session details from JSON.
+2025-04-03 10:57:13,326 - WARNING -  * Debugger is active!
+2025-04-03 10:57:13,347 - INFO -  * Debugger PIN: 137-857-803
+2025-04-03 10:57:14,518 - INFO - Loaded cached job embeddings.
+2025-04-03 10:57:14,685 - INFO - 127.0.0.1 - - [03/Apr/2025 10:57:14] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-03 10:57:14,703 - INFO - 127.0.0.1 - - [03/Apr/2025 10:57:14] "GET /login HTTP/1.1" 200 -
+2025-04-03 10:59:09,138 - INFO - 127.0.0.1 - - [03/Apr/2025 10:59:09] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2025-04-03 10:59:09,392 - INFO - 127.0.0.1 - - [03/Apr/2025 10:59:09] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-03 10:59:09,396 - INFO - 127.0.0.1 - - [03/Apr/2025 10:59:09] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-03 10:59:09,464 - INFO - 127.0.0.1 - - [03/Apr/2025 10:59:09] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=xDSLx47ZJor7ie3r1KyX HTTP/1.1" 200 -
+2025-04-03 10:59:09,491 - INFO - 127.0.0.1 - - [03/Apr/2025 10:59:09] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-03 10:59:26,887 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\app.py', reloading
+2025-04-03 10:59:28,154 - INFO -  * Restarting with stat
+2025-04-03 11:01:40,933 - INFO - Use pytorch device_name: cpu
+2025-04-03 11:01:40,934 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 11:01:44,370 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 11:01:44,371 - INFO - Loaded session details from JSON.
+2025-04-03 11:01:44,468 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-03 11:01:44,468 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-03 11:01:44,473 - INFO -  * Restarting with stat
+2025-04-03 11:01:45,089 - INFO - Loaded cached job embeddings.
+2025-04-03 11:02:02,840 - INFO - Use pytorch device_name: cpu
+2025-04-03 11:02:02,840 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 11:02:05,982 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 11:02:05,983 - INFO - Loaded session details from JSON.
+2025-04-03 11:02:06,035 - WARNING -  * Debugger is active!
+2025-04-03 11:02:06,046 - INFO -  * Debugger PIN: 137-857-803
+2025-04-03 11:02:06,339 - INFO - Loaded cached job embeddings.
+2025-04-03 11:02:06,511 - INFO - 127.0.0.1 - - [03/Apr/2025 11:02:06] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-03 11:02:06,518 - INFO - 127.0.0.1 - - [03/Apr/2025 11:02:06] "GET /login HTTP/1.1" 200 -
+2025-04-03 11:02:16,470 - INFO - 127.0.0.1 - - [03/Apr/2025 11:02:16] "[31m[1mPOST /login HTTP/1.1[0m" 403 -
+2025-04-03 11:02:43,102 - INFO - 127.0.0.1 - - [03/Apr/2025 11:02:43] "[31m[1mPOST /login HTTP/1.1[0m" 403 -
+2025-04-03 11:02:55,231 - INFO - 127.0.0.1 - - [03/Apr/2025 11:02:55] "[31m[1mPOST /login HTTP/1.1[0m" 403 -
+2025-04-03 11:09:01,524 - INFO - 127.0.0.1 - - [03/Apr/2025 11:09:01] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-03 11:09:01,537 - INFO - 127.0.0.1 - - [03/Apr/2025 11:09:01] "GET /login HTTP/1.1" 200 -
+2025-04-03 11:11:05,214 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\app.py', reloading
+2025-04-03 11:11:06,463 - INFO -  * Restarting with stat
+2025-04-03 11:11:30,247 - INFO - Use pytorch device_name: cpu
+2025-04-03 11:11:30,248 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 11:11:34,272 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 11:11:34,274 - INFO - Loaded session details from JSON.
+2025-04-03 11:11:34,382 - WARNING -  * Debugger is active!
+2025-04-03 11:11:34,403 - INFO -  * Debugger PIN: 137-857-803
+2025-04-03 11:11:35,178 - INFO - Loaded cached job embeddings.
+2025-04-03 11:15:54,928 - INFO - 127.0.0.1 - - [03/Apr/2025 11:15:54] "GET /signup HTTP/1.1" 200 -
+2025-04-03 11:16:44,040 - INFO - HTTP Request: POST https://cgwsnlrpvdandljurvpx.supabase.co/auth/v1/signup "HTTP/2 400 Bad Request"
+2025-04-03 11:16:44,042 - ERROR - Error during signup: Email address "janedoe@gmail.com" is invalid
+2025-04-03 11:16:44,044 - INFO - 127.0.0.1 - - [03/Apr/2025 11:16:44] "POST /signup HTTP/1.1" 200 -
+2025-04-03 11:19:58,235 - INFO - Use pytorch device_name: cpu
+2025-04-03 11:19:58,235 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 11:20:01,393 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 11:20:01,394 - INFO - Loaded session details from JSON.
+2025-04-03 11:20:01,461 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-03 11:20:01,461 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-03 11:20:01,468 - INFO -  * Restarting with stat
+2025-04-03 11:20:01,669 - INFO - Loaded cached job embeddings.
+2025-04-03 11:20:15,617 - INFO - Use pytorch device_name: cpu
+2025-04-03 11:20:15,617 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 11:20:19,027 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 11:20:19,028 - INFO - Loaded session details from JSON.
+2025-04-03 11:20:19,092 - WARNING -  * Debugger is active!
+2025-04-03 11:20:19,107 - INFO -  * Debugger PIN: 137-857-803
+2025-04-03 11:20:19,365 - INFO - Loaded cached job embeddings.
+2025-04-03 11:20:19,522 - INFO - 127.0.0.1 - - [03/Apr/2025 11:20:19] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-03 11:20:19,529 - INFO - 127.0.0.1 - - [03/Apr/2025 11:20:19] "GET /login HTTP/1.1" 200 -
+2025-04-03 11:20:23,577 - INFO - 127.0.0.1 - - [03/Apr/2025 11:20:23] "GET /signup HTTP/1.1" 200 -
+2025-04-03 11:20:57,894 - INFO - HTTP Request: POST https://cgwsnlrpvdandljurvpx.supabase.co/auth/v1/signup "HTTP/2 200 OK"
+2025-04-03 11:20:57,895 - INFO - Supabase signup response: user=User(id='ba786ca5-40cc-4bce-be8a-f3871ffff796', app_metadata={'provider': 'email', 'providers': ['email']}, user_metadata={'email': 'akhil.peter@btech.christuniversity.in', 'email_verified': False, 'phone_verified': False, 'sub': 'ba786ca5-40cc-4bce-be8a-f3871ffff796'}, aud='authenticated', confirmation_sent_at=datetime.datetime(2025, 4, 3, 5, 50, 54, 70128, tzinfo=TzInfo(UTC)), recovery_sent_at=None, email_change_sent_at=None, new_email=None, new_phone=None, invited_at=None, action_link=None, email='akhil.peter@btech.christuniversity.in', phone='', created_at=datetime.datetime(2025, 4, 3, 5, 50, 54, 59083, tzinfo=TzInfo(UTC)), confirmed_at=None, email_confirmed_at=None, phone_confirmed_at=None, last_sign_in_at=None, role='authenticated', updated_at=datetime.datetime(2025, 4, 3, 5, 50, 56, 907544, tzinfo=TzInfo(UTC)), identities=[UserIdentity(id='ba786ca5-40cc-4bce-be8a-f3871ffff796', identity_id='953de386-b081-43b6-990f-fe89fbb4eebf', user_id='ba786ca5-40cc-4bce-be8a-f3871ffff796', identity_data={'email': 'akhil.peter@btech.christuniversity.in', 'email_verified': False, 'phone_verified': False, 'sub': 'ba786ca5-40cc-4bce-be8a-f3871ffff796'}, provider='email', created_at=datetime.datetime(2025, 4, 3, 5, 50, 54, 66047, tzinfo=TzInfo(UTC)), last_sign_in_at=datetime.datetime(2025, 4, 3, 5, 50, 54, 65999, tzinfo=TzInfo(UTC)), updated_at=datetime.datetime(2025, 4, 3, 5, 50, 54, 66047, tzinfo=TzInfo(UTC)))], is_anonymous=False, factors=None) session=None
+2025-04-03 11:20:57,899 - INFO - 127.0.0.1 - - [03/Apr/2025 11:20:57] "[32mPOST /signup HTTP/1.1[0m" 302 -
+2025-04-03 11:20:57,910 - INFO - 127.0.0.1 - - [03/Apr/2025 11:20:57] "GET / HTTP/1.1" 200 -
+2025-04-03 11:21:04,310 - INFO - 127.0.0.1 - - [03/Apr/2025 11:21:04] "[35m[1mGET /profile HTTP/1.1[0m" 500 -
+2025-04-03 11:21:04,439 - INFO - 127.0.0.1 - - [03/Apr/2025 11:21:04] "GET /profile?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-03 11:21:04,440 - INFO - 127.0.0.1 - - [03/Apr/2025 11:21:04] "GET /profile?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-03 11:21:04,488 - INFO - 127.0.0.1 - - [03/Apr/2025 11:21:04] "GET /profile?__debugger__=yes&cmd=resource&f=console.png&s=1eAbaQpyQ8cpiqHFJES0 HTTP/1.1" 200 -
+2025-04-03 11:21:04,509 - INFO - 127.0.0.1 - - [03/Apr/2025 11:21:04] "GET /profile?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-03 11:21:08,078 - INFO - 127.0.0.1 - - [03/Apr/2025 11:21:08] "GET /faq HTTP/1.1" 200 -
+2025-04-03 11:21:08,107 - INFO - 127.0.0.1 - - [03/Apr/2025 11:21:08] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-04-03 11:21:17,640 - INFO - 127.0.0.1 - - [03/Apr/2025 11:21:17] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-03 11:21:17,647 - INFO - 127.0.0.1 - - [03/Apr/2025 11:21:17] "GET /login HTTP/1.1" 200 -
+2025-04-03 11:21:30,026 - INFO - 127.0.0.1 - - [03/Apr/2025 11:21:30] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-04-03 11:21:57,763 - INFO - 127.0.0.1 - - [03/Apr/2025 11:21:57] "[31m[1mPOST /login HTTP/1.1[0m" 403 -
+2025-04-03 11:24:21,962 - INFO - 127.0.0.1 - - [03/Apr/2025 11:24:21] "[31m[1mPOST /login HTTP/1.1[0m" 403 -
+2025-04-03 11:26:38,183 - INFO - 127.0.0.1 - - [03/Apr/2025 11:26:38] "[31m[1mPOST /login HTTP/1.1[0m" 403 -
+2025-04-03 11:26:39,953 - INFO - 127.0.0.1 - - [03/Apr/2025 11:26:39] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-03 11:26:39,979 - INFO - 127.0.0.1 - - [03/Apr/2025 11:26:39] "GET /login HTTP/1.1" 200 -
+2025-04-03 11:26:48,443 - INFO - 127.0.0.1 - - [03/Apr/2025 11:26:48] "GET /signup HTTP/1.1" 200 -
+2025-04-03 11:27:24,041 - INFO - HTTP Request: POST https://cgwsnlrpvdandljurvpx.supabase.co/auth/v1/signup "HTTP/2 200 OK"
+2025-04-03 11:27:24,042 - INFO - Supabase signup response: user=User(id='7e525766-6b35-490f-8ef4-6349bc0f9972', app_metadata={'provider': 'email', 'providers': ['email']}, user_metadata={'email': 'akhilharold97@gmail.com', 'email_verified': False, 'phone_verified': False, 'sub': '7e525766-6b35-490f-8ef4-6349bc0f9972'}, aud='authenticated', confirmation_sent_at=datetime.datetime(2025, 4, 3, 5, 57, 18, 794040, tzinfo=TzInfo(UTC)), recovery_sent_at=None, email_change_sent_at=None, new_email=None, new_phone=None, invited_at=None, action_link=None, email='akhilharold97@gmail.com', phone='', created_at=datetime.datetime(2025, 4, 3, 5, 57, 18, 775300, tzinfo=TzInfo(UTC)), confirmed_at=None, email_confirmed_at=None, phone_confirmed_at=None, last_sign_in_at=None, role='authenticated', updated_at=datetime.datetime(2025, 4, 3, 5, 57, 23, 47137, tzinfo=TzInfo(UTC)), identities=[UserIdentity(id='7e525766-6b35-490f-8ef4-6349bc0f9972', identity_id='9f412880-7f51-4145-ab4b-9c8945c8219c', user_id='7e525766-6b35-490f-8ef4-6349bc0f9972', identity_data={'email': 'akhilharold97@gmail.com', 'email_verified': False, 'phone_verified': False, 'sub': '7e525766-6b35-490f-8ef4-6349bc0f9972'}, provider='email', created_at=datetime.datetime(2025, 4, 3, 5, 57, 18, 789940, tzinfo=TzInfo(UTC)), last_sign_in_at=datetime.datetime(2025, 4, 3, 5, 57, 18, 789883, tzinfo=TzInfo(UTC)), updated_at=datetime.datetime(2025, 4, 3, 5, 57, 18, 789940, tzinfo=TzInfo(UTC)))], is_anonymous=False, factors=None) session=None
+2025-04-03 11:27:24,044 - INFO - 127.0.0.1 - - [03/Apr/2025 11:27:24] "[32mPOST /signup HTTP/1.1[0m" 302 -
+2025-04-03 11:27:24,051 - INFO - 127.0.0.1 - - [03/Apr/2025 11:27:24] "GET / HTTP/1.1" 200 -
+2025-04-03 11:27:28,070 - INFO - 127.0.0.1 - - [03/Apr/2025 11:27:28] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-03 11:27:28,079 - INFO - 127.0.0.1 - - [03/Apr/2025 11:27:28] "GET /login HTTP/1.1" 200 -
+2025-04-03 11:27:38,783 - INFO - 127.0.0.1 - - [03/Apr/2025 11:27:38] "[31m[1mPOST /login HTTP/1.1[0m" 403 -
+2025-04-03 11:28:38,187 - INFO - 127.0.0.1 - - [03/Apr/2025 11:28:38] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-03 11:28:38,197 - INFO - 127.0.0.1 - - [03/Apr/2025 11:28:38] "GET /login HTTP/1.1" 200 -
+2025-04-03 11:28:38,468 - INFO - 127.0.0.1 - - [03/Apr/2025 11:28:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-03 11:28:56,968 - INFO - 127.0.0.1 - - [03/Apr/2025 11:28:56] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-03 11:28:56,975 - INFO - 127.0.0.1 - - [03/Apr/2025 11:28:56] "GET /profile HTTP/1.1" 200 -
+2025-04-03 11:29:09,279 - INFO - 127.0.0.1 - - [03/Apr/2025 11:29:09] "GET / HTTP/1.1" 200 -
+2025-04-03 11:29:42,317 - INFO - 127.0.0.1 - - [03/Apr/2025 11:29:42] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-03 11:29:42,323 - INFO - 127.0.0.1 - - [03/Apr/2025 11:29:42] "GET /login HTTP/1.1" 200 -
+2025-04-03 11:30:26,309 - INFO - 127.0.0.1 - - [03/Apr/2025 11:30:26] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-03 11:30:26,323 - INFO - 127.0.0.1 - - [03/Apr/2025 11:30:26] "GET /login HTTP/1.1" 200 -
+2025-04-03 11:30:30,951 - INFO - 127.0.0.1 - - [03/Apr/2025 11:30:30] "GET /signup HTTP/1.1" 200 -
+2025-04-03 11:31:02,088 - ERROR - Error during signup: The read operation timed out
+2025-04-03 11:31:02,090 - INFO - 127.0.0.1 - - [03/Apr/2025 11:31:02] "POST /signup HTTP/1.1" 200 -
+2025-04-03 11:31:21,774 - INFO - HTTP Request: POST https://cgwsnlrpvdandljurvpx.supabase.co/auth/v1/signup "HTTP/2 429 Too Many Requests"
+2025-04-03 11:31:21,776 - ERROR - Error during signup: For security purposes, you can only request this after 35 seconds.
+2025-04-03 11:31:21,778 - INFO - 127.0.0.1 - - [03/Apr/2025 11:31:21] "POST /signup HTTP/1.1" 200 -
+2025-04-03 11:31:48,177 - INFO - 127.0.0.1 - - [03/Apr/2025 11:31:48] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-03 11:31:48,187 - INFO - 127.0.0.1 - - [03/Apr/2025 11:31:48] "GET /login HTTP/1.1" 200 -
+2025-04-03 11:31:48,458 - INFO - 127.0.0.1 - - [03/Apr/2025 11:31:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-03 11:31:59,533 - INFO - 127.0.0.1 - - [03/Apr/2025 11:31:59] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-03 11:31:59,542 - INFO - 127.0.0.1 - - [03/Apr/2025 11:31:59] "GET /profile HTTP/1.1" 200 -
+2025-04-03 11:32:04,107 - INFO - 127.0.0.1 - - [03/Apr/2025 11:32:04] "GET / HTTP/1.1" 200 -
+2025-04-03 11:32:43,755 - INFO - 127.0.0.1 - - [03/Apr/2025 11:32:43] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-03 11:32:43,762 - INFO - 127.0.0.1 - - [03/Apr/2025 11:32:43] "GET /login HTTP/1.1" 200 -
+2025-04-03 11:32:53,459 - INFO - 127.0.0.1 - - [03/Apr/2025 11:32:53] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-03 11:32:53,468 - INFO - 127.0.0.1 - - [03/Apr/2025 11:32:53] "GET /profile HTTP/1.1" 200 -
+2025-04-03 11:33:29,350 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\app.py', reloading
+2025-04-03 11:33:30,500 - INFO -  * Restarting with stat
+2025-04-03 11:33:56,069 - INFO - Use pytorch device_name: cpu
+2025-04-03 11:33:56,070 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 11:33:59,190 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 11:33:59,190 - INFO - Loaded session details from JSON.
+2025-04-03 11:33:59,239 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-03 11:33:59,239 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-03 11:33:59,243 - INFO -  * Restarting with stat
+2025-04-03 11:33:59,440 - INFO - Loaded cached job embeddings.
+2025-04-03 11:34:13,991 - INFO - Use pytorch device_name: cpu
+2025-04-03 11:34:13,991 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 11:34:17,437 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 11:34:17,438 - INFO - Loaded session details from JSON.
+2025-04-03 11:34:17,490 - WARNING -  * Debugger is active!
+2025-04-03 11:34:17,500 - INFO -  * Debugger PIN: 137-857-803
+2025-04-03 11:34:17,771 - INFO - Loaded cached job embeddings.
+2025-04-03 11:34:17,944 - INFO - 127.0.0.1 - - [03/Apr/2025 11:34:17] "GET / HTTP/1.1" 200 -
+2025-04-03 11:34:22,571 - INFO - 127.0.0.1 - - [03/Apr/2025 11:34:22] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-03 11:34:22,578 - INFO - 127.0.0.1 - - [03/Apr/2025 11:34:22] "GET /login HTTP/1.1" 200 -
+2025-04-03 11:34:34,319 - INFO - 127.0.0.1 - - [03/Apr/2025 11:34:34] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-03 11:34:34,330 - INFO - 127.0.0.1 - - [03/Apr/2025 11:34:34] "GET / HTTP/1.1" 200 -
+2025-04-03 11:34:43,101 - INFO - 127.0.0.1 - - [03/Apr/2025 11:34:43] "GET /signup HTTP/1.1" 200 -
+2025-04-03 11:35:02,579 - INFO - HTTP Request: POST https://cgwsnlrpvdandljurvpx.supabase.co/auth/v1/signup "HTTP/2 200 OK"
+2025-04-03 11:35:02,581 - INFO - Supabase signup response: user=User(id='704ba042-4aea-4f9d-b23f-0d87287bc196', app_metadata={'provider': 'email', 'providers': ['email']}, user_metadata={'email': 'mythosvoyage1@gmail.com', 'email_verified': False, 'phone_verified': False, 'sub': '704ba042-4aea-4f9d-b23f-0d87287bc196'}, aud='authenticated', confirmation_sent_at=datetime.datetime(2025, 4, 3, 6, 4, 59, 251237, tzinfo=TzInfo(UTC)), recovery_sent_at=None, email_change_sent_at=None, new_email=None, new_phone=None, invited_at=None, action_link=None, email='mythosvoyage1@gmail.com', phone='', created_at=datetime.datetime(2025, 4, 3, 6, 4, 59, 242382, tzinfo=TzInfo(UTC)), confirmed_at=None, email_confirmed_at=None, phone_confirmed_at=None, last_sign_in_at=None, role='authenticated', updated_at=datetime.datetime(2025, 4, 3, 6, 5, 1, 563431, tzinfo=TzInfo(UTC)), identities=[UserIdentity(id='704ba042-4aea-4f9d-b23f-0d87287bc196', identity_id='ade4271c-6037-4f8b-8779-0a8a18b09eec', user_id='704ba042-4aea-4f9d-b23f-0d87287bc196', identity_data={'email': 'mythosvoyage1@gmail.com', 'email_verified': False, 'phone_verified': False, 'sub': '704ba042-4aea-4f9d-b23f-0d87287bc196'}, provider='email', created_at=datetime.datetime(2025, 4, 3, 6, 4, 59, 247364, tzinfo=TzInfo(UTC)), last_sign_in_at=datetime.datetime(2025, 4, 3, 6, 4, 59, 247297, tzinfo=TzInfo(UTC)), updated_at=datetime.datetime(2025, 4, 3, 6, 4, 59, 247364, tzinfo=TzInfo(UTC)))], is_anonymous=False, factors=None) session=None
+2025-04-03 11:35:02,583 - INFO - 127.0.0.1 - - [03/Apr/2025 11:35:02] "[32mPOST /signup HTTP/1.1[0m" 302 -
+2025-04-03 11:35:02,591 - INFO - 127.0.0.1 - - [03/Apr/2025 11:35:02] "GET / HTTP/1.1" 200 -
+2025-04-03 11:35:45,700 - INFO - 127.0.0.1 - - [03/Apr/2025 11:35:45] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-03 11:35:45,707 - INFO - 127.0.0.1 - - [03/Apr/2025 11:35:45] "GET /login HTTP/1.1" 200 -
+2025-04-03 11:35:59,635 - INFO - 127.0.0.1 - - [03/Apr/2025 11:35:59] "[31m[1mPOST /login HTTP/1.1[0m" 403 -
+2025-04-03 11:36:36,495 - INFO - 127.0.0.1 - - [03/Apr/2025 11:36:36] "GET /signup HTTP/1.1" 200 -
+2025-04-03 11:36:54,650 - INFO - HTTP Request: POST https://cgwsnlrpvdandljurvpx.supabase.co/auth/v1/signup "HTTP/2 200 OK"
+2025-04-03 11:36:54,652 - INFO - Supabase signup response: user=User(id='86cfb4aa-a331-4cf4-8999-3c474380e987', app_metadata={'provider': 'email', 'providers': ['email']}, user_metadata={'email': 'mythosvoyage2@gmail.com', 'email_verified': False, 'phone_verified': False, 'sub': '86cfb4aa-a331-4cf4-8999-3c474380e987'}, aud='authenticated', confirmation_sent_at=datetime.datetime(2025, 4, 3, 6, 6, 49, 905228, tzinfo=TzInfo(UTC)), recovery_sent_at=None, email_change_sent_at=None, new_email=None, new_phone=None, invited_at=None, action_link=None, email='mythosvoyage2@gmail.com', phone='', created_at=datetime.datetime(2025, 4, 3, 6, 6, 49, 900243, tzinfo=TzInfo(UTC)), confirmed_at=None, email_confirmed_at=None, phone_confirmed_at=None, last_sign_in_at=None, role='authenticated', updated_at=datetime.datetime(2025, 4, 3, 6, 6, 53, 626493, tzinfo=TzInfo(UTC)), identities=[UserIdentity(id='86cfb4aa-a331-4cf4-8999-3c474380e987', identity_id='9c0d4e5f-1588-4a79-b07f-fca0b69f43c9', user_id='86cfb4aa-a331-4cf4-8999-3c474380e987', identity_data={'email': 'mythosvoyage2@gmail.com', 'email_verified': False, 'phone_verified': False, 'sub': '86cfb4aa-a331-4cf4-8999-3c474380e987'}, provider='email', created_at=datetime.datetime(2025, 4, 3, 6, 6, 49, 902622, tzinfo=TzInfo(UTC)), last_sign_in_at=datetime.datetime(2025, 4, 3, 6, 6, 49, 902561, tzinfo=TzInfo(UTC)), updated_at=datetime.datetime(2025, 4, 3, 6, 6, 49, 902622, tzinfo=TzInfo(UTC)))], is_anonymous=False, factors=None) session=None
+2025-04-03 11:36:54,653 - INFO - 127.0.0.1 - - [03/Apr/2025 11:36:54] "[32mPOST /signup HTTP/1.1[0m" 302 -
+2025-04-03 11:36:54,661 - INFO - 127.0.0.1 - - [03/Apr/2025 11:36:54] "GET / HTTP/1.1" 200 -
+2025-04-03 11:36:57,680 - INFO - 127.0.0.1 - - [03/Apr/2025 11:36:57] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-03 11:36:57,687 - INFO - 127.0.0.1 - - [03/Apr/2025 11:36:57] "GET /login HTTP/1.1" 200 -
+2025-04-03 11:37:07,343 - INFO - 127.0.0.1 - - [03/Apr/2025 11:37:07] "[31m[1mPOST /login HTTP/1.1[0m" 403 -
+2025-04-03 11:37:16,208 - INFO - 127.0.0.1 - - [03/Apr/2025 11:37:16] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-03 11:37:16,214 - INFO - 127.0.0.1 - - [03/Apr/2025 11:37:16] "GET /login HTTP/1.1" 200 -
+2025-04-03 11:37:16,468 - INFO - 127.0.0.1 - - [03/Apr/2025 11:37:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-03 11:37:26,190 - INFO - 127.0.0.1 - - [03/Apr/2025 11:37:26] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-03 11:37:26,194 - INFO - 127.0.0.1 - - [03/Apr/2025 11:37:26] "GET / HTTP/1.1" 200 -
+2025-04-03 11:37:31,708 - INFO - 127.0.0.1 - - [03/Apr/2025 11:37:31] "GET /faq HTTP/1.1" 200 -
+2025-04-03 11:37:31,737 - INFO - 127.0.0.1 - - [03/Apr/2025 11:37:31] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-04-03 11:37:35,193 - INFO - 127.0.0.1 - - [03/Apr/2025 11:37:35] "GET /profile HTTP/1.1" 200 -
+2025-04-03 11:37:47,257 - INFO - 127.0.0.1 - - [03/Apr/2025 11:37:47] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-03 11:37:47,263 - INFO - 127.0.0.1 - - [03/Apr/2025 11:37:47] "GET /login HTTP/1.1" 200 -
+2025-04-03 18:07:49,708 - INFO - Use pytorch device_name: cpu
+2025-04-03 18:07:49,709 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 18:07:53,457 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 18:07:53,470 - INFO - Loaded session details from JSON.
+2025-04-03 18:07:53,562 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-03 18:07:53,562 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-03 18:07:53,568 - INFO -  * Restarting with stat
+2025-04-03 18:07:53,730 - INFO - Loaded cached job embeddings.
+2025-04-03 18:08:15,221 - INFO - Use pytorch device_name: cpu
+2025-04-03 18:08:15,222 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-03 18:08:19,714 - INFO - Loaded 4400 job listings from CSV.
+2025-04-03 18:08:19,716 - INFO - Loaded session details from JSON.
+2025-04-03 18:08:19,834 - WARNING -  * Debugger is active!
+2025-04-03 18:08:19,869 - INFO -  * Debugger PIN: 137-857-803
+2025-04-03 18:08:20,647 - INFO - Loaded cached job embeddings.
+2025-04-03 18:08:21,092 - INFO - 127.0.0.1 - - [03/Apr/2025 18:08:21] "GET /login HTTP/1.1" 200 -
+2025-04-03 18:08:56,680 - INFO - 127.0.0.1 - - [03/Apr/2025 18:08:56] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-03 18:08:56,738 - INFO - 127.0.0.1 - - [03/Apr/2025 18:08:56] "GET / HTTP/1.1" 200 -
+2025-04-03 18:09:13,653 - INFO - Received message from session default: Jobs in data engineernig
+2025-04-03 18:09:14,019 - INFO - Processed message. Tokens: ['Jobs', 'in', 'data', 'engineernig'] | Entities: []
+2025-04-03 18:09:15,099 - INFO - Semantic search found 2818 matching jobs for query: Jobs in data engineernig
+2025-04-03 18:09:15,099 - INFO - Updated session default history. Total messages: 2
+2025-04-03 18:09:15,100 - INFO - 127.0.0.1 - - [03/Apr/2025 18:09:15] "POST /chat HTTP/1.1" 200 -
+2025-04-03 18:09:21,181 - INFO - Received message from session default: Data Engineer - Artificial Intelligence/Machine Learning at Element Infomatics Pvt. Ltd
+2025-04-03 18:09:21,905 - INFO - Processed message. Tokens: ['Data', 'Engineer', '-', 'Artificial', 'Intelligence', '/', 'Machine', 'Learning', 'at', 'Element', 'Infomatics', 'Pvt.', 'Ltd'] | Entities: [('Element Infomatics Pvt. Ltd', 'ORG')]
+2025-04-03 18:09:21,905 - INFO - Updated session default history. Total messages: 4
+2025-04-03 18:09:21,906 - INFO - 127.0.0.1 - - [03/Apr/2025 18:09:21] "POST /chat HTTP/1.1" 200 -
+2025-04-03 18:09:34,654 - INFO - Received message from session default: salary in Data Engineer - Artificial Intelligence/Machine Learning at Element Infomatics Pvt. Ltd
+2025-04-03 18:09:35,492 - INFO - Processed message. Tokens: ['salary', 'in', 'Data', 'Engineer', '-', 'Artificial', 'Intelligence', '/', 'Machine', 'Learning', 'at', 'Element', 'Infomatics', 'Pvt.', 'Ltd'] | Entities: [('Element Infomatics Pvt. Ltd', 'ORG')]
+2025-04-03 18:09:36,596 - INFO - Semantic search found 1933 matching jobs for query: salary in Data Engineer - Artificial Intelligence/Machine Learning at Element Infomatics Pvt. Ltd
+2025-04-03 18:09:36,596 - INFO - Updated session default history. Total messages: 6
+2025-04-03 18:09:36,597 - INFO - 127.0.0.1 - - [03/Apr/2025 18:09:36] "POST /chat HTTP/1.1" 200 -
+2025-04-03 18:09:41,182 - INFO - Received message from session default: 2
+2025-04-03 18:09:41,183 - INFO - Updated session default history. Total messages: 8
+2025-04-03 18:09:41,184 - INFO - 127.0.0.1 - - [03/Apr/2025 18:09:41] "POST /chat HTTP/1.1" 200 -
+2025-04-03 18:09:48,516 - INFO - Received message from session default: descritpion for Data Engineer - Artificial Intelligence/Machine Learning at Element Infomatics Pvt. Ltd
+2025-04-03 18:09:49,320 - INFO - Processed message. Tokens: ['descritpion', 'for', 'Data', 'Engineer', '-', 'Artificial', 'Intelligence', '/', 'Machine', 'Learning', 'at', 'Element', 'Infomatics', 'Pvt.', 'Ltd'] | Entities: [('Element Infomatics Pvt. Ltd', 'ORG')]
+2025-04-03 18:09:49,320 - INFO - Updated session default history. Total messages: 10
+2025-04-03 18:09:49,321 - INFO - 127.0.0.1 - - [03/Apr/2025 18:09:49] "POST /chat HTTP/1.1" 200 -
+2025-04-03 18:13:50,628 - INFO - 127.0.0.1 - - [03/Apr/2025 18:13:50] "GET /profile HTTP/1.1" 200 -
+2025-04-03 18:13:53,377 - INFO - 127.0.0.1 - - [03/Apr/2025 18:13:53] "GET /faq HTTP/1.1" 200 -
+2025-04-03 18:13:53,413 - INFO - 127.0.0.1 - - [03/Apr/2025 18:13:53] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-04-03 18:20:57,382 - INFO -  * Detected change in 'C:\\Users\\akhil\\Programming\\Aleena\\Asha AI Hackathon 2025\\app.py', reloading
+2025-04-03 18:20:58,633 - INFO -  * Restarting with stat

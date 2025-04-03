@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Asha AI Chatbot</title>
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Optional: Include Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    body { background-color: #f8f9fa; }
+    .chat-container {
+      max-width: 800px;
+      margin: 30px auto;
+      background: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      padding: 20px;
+      position: relative;
+    }
+    .chat-header { border-bottom: 1px solid #dee2e6; margin-bottom: 15px; }
+    .chat-box {
+      height: 400px;
+      overflow-y: auto;
+      border: 1px solid #dee2e6;
+      border-radius: 4px;
+      padding: 15px;
+      background-color: #f1f1f1;
+    }
+    .chat-input { margin-top: 15px; }
+    .message { margin-bottom: 10px; }
+    .message.bot { color: #0d6efd; }
+    .message.user { color: #198754; }
+    
+    /* Icon styles */
+    .icon-bar {
+      position: absolute;
+      top: 10px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 15px;
+    }
+    .icon-bar a { color: #333; font-size: 1.5rem; text-decoration: none; }
+    .profile-icon { position: absolute; left: 10px; top: 10px; }
+    .message-icon { position: absolute; right: 10px; top: 10px; }
+    .settings-icon { position: absolute; right: 10px; top: 50px; }
+
+    /* Logout dropdown */
+    #logout-option {
+      display: none;
+      position: absolute;
+      right: 10px;
+      top: 80px;
+      background: white;
+      border: 1px solid #dee2e6;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    #logout-option a {
+      display: block;
+      padding: 10px 15px;
+      text-decoration: none;
+      color: #333;
+    }
+    #logout-option a:hover {
+      background-color: #f8f9fa;
+    }
+  </style>
+</head>
+<body>
+  <div class="container chat-container">
+    <!-- Icon Bar -->
+    <div class="icon-bar">
+      <!-- Profile icon -->
+      <a href="/profile" class="profile-icon" title="Profile">
+        <i class="fas fa-user-circle"></i>
+      </a>
+      <div>
+        <!-- Message icon -->
+        <a href="/faq" class="message-icon" title="FAQ">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <!-- Settings icon -->
+        <a href="#" id="settings-btn" class="settings-icon" title="Settings">
+          <i class="fas fa-cog"></i>
+        </a>
+        <!-- Logout option -->
+        <div id="logout-option">
+          <a href="/logout">Logout</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="chat-header text-center">
+      <h2>Asha AI Chatbot</h2>
+      <p class="text-muted">Empowering Women in Their Professional Journey</p>
+    </div>
+
+    <div id="chatBox" class="chat-box"></div>
+
+    <div class="chat-input">
+      <div class="input-group">
+        <input type="text" id="userMessage" class="form-control" placeholder="Type your message here...">
+        <div class="input-group-append">
+          <button class="btn btn-primary" onclick="sendMessage()">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery and Bootstrap JS CDN -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+  <script>
+    async function sendMessage() {
+      const messageInput = document.getElementById("userMessage");
+      const message = messageInput.value;
+      if (!message.trim()) return;
+      const session_id = "default";
+      appendMessage("You", message, "user");
+      messageInput.value = "";
+      try {
+        const response = await fetch('/chat', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ message: message, session_id: session_id })
+        });
+        const data = await response.json();
+        appendMessage("Asha AI", data.response, "bot");
+      } catch (error) {
+        appendMessage("Asha AI", "An error occurred. Please try again later.", "bot");
+      }
+    }
+
+    function appendMessage(sender, text, cssClass) {
+      const chatBox = document.getElementById("chatBox");
+      const messageDiv = document.createElement("div");
+      messageDiv.className = "message " + cssClass;
+      messageDiv.innerHTML = `<strong>${sender}:</strong> ${text}`;
+      chatBox.appendChild(messageDiv);
+      chatBox.scrollTop = chatBox.scrollHeight;
+    }
+
+    // Show/hide logout option when clicking Settings
+    document.getElementById("settings-btn").addEventListener("click", function(event) {
+      event.preventDefault();
+      let logoutOption = document.getElementById("logout-option");
+      logoutOption.style.display = (logoutOption.style.display === "none") ? "block" : "none";
+    });
+
+    // Hide logout option when clicking outside
+    document.addEventListener("click", function(event) {
+      let settingsBtn = document.getElementById("settings-btn");
+      let logoutOption = document.getElementById("logout-option");
+      if (!settingsBtn.contains(event.target) && !logoutOption.contains(event.target)) {
+        logoutOption.style.display = "none";
+      }
+    });
+  </script>
+</body>
+</html>
