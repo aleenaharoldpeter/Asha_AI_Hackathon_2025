@@ -16,8 +16,8 @@ import threading
 from supabase import create_client, Client
 
 # --- Supabase Configuration ---
-SUPABASE_URL = "https://cgwsnlrpvdandljurvpx.supabase.co"  # Replace with your Supabase URL
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNnd3NubHJwdmRhbmRsanVydnB4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDM2NTE0NjksImV4cCI6MjA1OTIyNzQ2OX0.x9p7nGVrTYAtwWLLAIDClfIpDLZaa5WvgJ4701p2y2w"                   # Replace with your Supabase API key
+SUPABASE_URL = os.environ.get("SUPABASE_URL", "https://cgwsnlrpvdandljurvpx.supabase.co")  # Replace with your Supabase URL
+SUPABASE_KEY = os.environ.get("SUPABASE_KEY", "your_supabase_api_key")# Replace with your Supabase API key                  
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 
