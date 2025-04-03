@@ -1,5 +1,9 @@
 Flask
-Flask-Cors
+flask-cors
 requests
 sentence_transformers
 gunicorn
+stanza
+bs4
+supabase
+torch
