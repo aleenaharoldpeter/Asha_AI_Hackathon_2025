@@ -17,7 +17,7 @@ from supabase import create_client, Client
 
 # --- Supabase Configuration ---
 SUPABASE_URL = os.getenv("SUPABASE_URL")  # Replace with your Supabase URL
-SUPABASE_KEY = os.getenv("SUPABASE_KEY")# Replace with your Supabase API key                  
+SUPABASE_KEY = os.getenv("SUPABASE_KEY")                   # Replace with your Supabase API key
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 
