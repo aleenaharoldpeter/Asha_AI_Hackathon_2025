@@ -43,8 +43,8 @@ app.secret_key = "your_secret_key"  # For session management
 CORS(app)
 
 # Ensure the app runs on the correct host and port
-#port = int(os.environ.get("PORT", 8080))
-app.run(host="0.0.0.0", port=int(os.environ.get("PORT",  8080)))
+#port = int(os.environ.get("PORT", 8080))
+app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
 
 # --- NLP and Semantic Model Initialization ---
 nlp = stanza.Pipeline('en', processors='tokenize,pos,ner', verbose=False)
@@ -486,3 +486,4 @@ if __name__ == '__main__':
     app.run(debug=True)
 
 # to run this locally run - python app.py and access the app on "http://127.0.0.1:5000/"
+ 
