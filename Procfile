@@ -1,1 +1,1 @@
-web: gunicorn -w 1 -k sync -b 0.0.0.0:8080 app:app
+gunicorn app:app --workers=1 --worker-class=gevent --max-requests=10 --max-requests-jitter=5
