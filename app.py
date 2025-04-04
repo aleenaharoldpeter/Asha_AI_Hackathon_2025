@@ -44,7 +44,7 @@ CORS(app)
 
 # Ensure the app runs on the correct host and port
 #port = int(os.environ.get("PORT", 8080))
-app.run(host="0.0.0.0", port=8080)
+# app.run(host="0.0.0.0", port=8080)
 
 # --- NLP and Semantic Model Initialization ---
 nlp = stanza.Pipeline('en', processors='tokenize,pos,ner', verbose=False)
