@@ -13,6 +13,9 @@ In today’s fast-evolving digital world, seamless and intelligent conversations
 - Delivering accurate, real-time responses through retrieval-augmented generation (RAG) and semantic search.
 - Ensuring ethical AI practices by mitigating gender bias and promoting inclusivity.
 
+## Demo Video
+- [Click here to view the demo video](https://www.youtube.com/watch?v=NXH02aUOXEw&feature=youtu.be)
+
 ## Features Covered
 
 - **Contextual Awareness & Multi-Turn Conversations:**  
